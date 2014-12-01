@@ -1,0 +1,462 @@
+html,body{
+	margin:0 auto;
+	font-family:"Microsoft YaHei";
+	font-size: 12px;
+}
+img{
+	border:none;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: auto;
+}
+/*王雯洁*/
+/*头部导航栏*/
+.box-Head{
+	margin:0 auto;
+	width: 983px;
+	height: 60px;
+}
+.box-Head-Left{
+	float: left;
+}
+.logo{
+	float: left;
+	margin: 11px 10px 11px 0px;
+}
+.position{
+	float: left;
+	color: #ea6d65;
+	margin:28px 4px 0px 0px;
+}
+.position-icon{
+	margin-right: 18px;
+}
+.navigation{
+	float: left;
+}
+.list-group{
+	margin:18px 0px 0px;
+	color: #666666;
+}
+.list-group li{
+	float: left;
+	border:none;
+	margin-right: 5px;
+}
+.box-Head-Right{
+	float: right;
+}
+.help{
+	float: left;
+}
+.help-text{
+	margin-top: 9px;
+	margin-left: 5px;
+	float: left;
+}
+.help-text img{
+	float: right;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+.issue-Button{
+	float:right;
+	width: 128px;
+	height: 30px;
+	background-color: #3399cc;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.issue-Button span{
+	font-size: 15px;
+	color: #fff;
+	line-height: 30px;
+	margin-left: 30px;
+}
+/*头部导航栏结束*/
+/*中间轮播图片开始*/
+.box-BackgroundImg{
+	margin:0 auto;
+	width: 1200px;
+	height: 400px;
+}
+.box-BackgroundImg img{
+	width: 1200px;
+	height: 400px;
+}
+.background-top{
+	float: left;
+}
+.slide-menu{
+	z-index: 1;
+	position: absolute;
+	width: 170px;
+	height: 38px;
+	margin-top: -400px;
+	margin-left: -30px;
+	background-color: #66cc33;
+	border-bottom:solid #0e0c0c 1px; 
+}
+.slide-menu-button{
+	font-size: 14px;
+	color: #fff;
+	line-height: 38px;
+	margin-left: 50px;
+	float: left;
+}
+.slide-menu-button img{
+	float: right;
+	width: 11px;
+	height: 6px;
+	margin-top: 18px;
+	margin-left: 10px;
+}
+/*课程名开始
+.background-middle{
+	float: left;
+	font-size: 36px;
+	color: #fff;
+	margin-top:-260px;
+}
+.background-middle span{
+	font-size: 52px;
+}*/
+/*中间轮播图片开始*/
+/*课程详情开始*/
+.box-details{
+	margin:0 auto;
+	width: 1200px;
+	height: 304px;
+}
+.details-left{
+	float: left;
+	margin-top: 16px;
+}
+.left{
+	float: left;
+	color: #999999;
+	font-size: 15px;
+	margin-right: 70px;
+	letter-spacing: 1px;
+}
+.left span{
+	color: #000;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.right{
+	float: right;
+	font-size: 28px;
+	color: #4d4d4d;
+}
+/*
+.course-classify{
+	font-size: 14px;
+	color: #999;
+	margin-left: 12px;
+}*/
+.course-introduce{
+	font-size: 12px;
+	color: #999999;
+}
+.details-right{
+	float: right;
+}
+.box-Coursedetail{
+	width: 300px;
+	height: auto;
+	margin:-50px 79px 0 auto;
+}
+.course-pic{
+	height: 50px;
+	width: 300px;
+	background-color: #4d4d4d;
+	color: #fff;
+	font-size: 17px;
+	line-height: 50px;
+}
+.course-pic span{
+	font-size: 30px;
+	line-height: 50px;
+	margin-left: 40px;
+	margin-right: 47px;
+}
+.course-details{
+	height: 205px;
+	width: 410px;
+	background-color: #fff;
+	color: #989898;
+}
+.requer{
+	width: 348px;
+	height: 234px;
+	background-color: #343434;
+	border-radius: 8px;
+	z-index: 1;
+	position: absolute;
+	margin-top: -218px;
+}
+.requer-title{
+	margin:35px 35px 10px 35px;
+	font-size: 21px;
+	font-weight:bolder;
+	color: #808080;
+}
+.requer-content{
+	margin:0px 35px;
+	font-size: 17px;
+	color: #cbcbcc;
+}
+.requer-ques-left{
+	float: left;
+	text-decoration: underline;
+	margin:10px 0px 0px 35px;
+	font-size: 17px;
+	color: #808080;
+}
+.requer-ques-right{
+	float: right;
+	text-decoration: underline;
+	margin:10px 35px 0px 0px;
+	font-size: 17px;
+	color: #808080;
+}
+.course-details-way{
+	float: left;
+	margin:32px 0px 0px 58px;
+	font-size: 21px;
+}
+.price{
+	font-size: 21px;
+	margin-left: 82px;
+}
+.course-details-protect{
+	float: left;
+	font-size: 16px; 
+	color: #989898;
+	margin:20px 0px 48px 58px;
+}
+.totle-price{
+	float: left;
+	margin:0px 0px 16px 58px;
+	font-size: 12px;
+	color: #666;
+}
+.totle-price  .course-price{
+	font-size: 30px;
+	margin-right: 52px;
+	color: #666;
+}
+.course{
+	font-size: 17px;
+	color: #666;
+}
+.course-book{
+	float: left;
+	width: 300px;
+	height: 50px;
+	background-color: #66cc33;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	letter-spacing: 18px;
+	margin-bottom: 20px;
+}
+.course-collect{
+	float: left;
+	width: 300px;
+	height: 50px;
+	border:solid 1px #989898;
+	color: #989898;
+	background-color: #f1f1f1;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: 20px;
+	margin-bottom: 12px;
+}
+.course-share{
+	float: left;
+	width: 410px;
+	color: #a7a7a7;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 6px;
+}
+/*课程详情结束*/
+/*关于课程开始*/
+.box-about-course{
+	width: 1200px;
+	height: 508px;
+	margin:0 auto;
+	background-color: #f2f2f2;
+}
+.about-course-totle{
+	width: 642px;
+	height: 508px;
+	float: left;
+	padding-left: 100px;
+	position: relative;
+	margin-top: -124px;
+}
+.about-course-title{
+	margin:30px 0px 25px;
+	font-size: 22px;
+	color: #343434;
+}
+.about-course-content{
+	font-size: 14px;
+	color: #595959;
+}
+.about-course-btn{
+	margin:15px 0px 20px;
+	width: 130px;
+	height: 30px;
+	background-color:#67cc33;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}
+.about-course-pic img{
+	width: 642px;
+	height: 280px;
+}
+/*关于课程结束*/
+/*王雯洁*/
+
+/*Wang Feng*/
+.about_teacherbox {
+	 width: 982px; margin: 0 auto;font-family: "Microsoft YaHei";
+}
+.teacher_minute{border-top:1px solid #cbcbcb;}
+
+.about_teacher{
+	width: 642px; float: left;
+}
+
+.teacher_title {
+	height: 75px; line-height: 75px; font-size: 18px;
+}
+
+.teacher_info {
+	 height: 170px;
+}
+
+.teacher_left img{ width: 130px; height: 130px; border-radius:65px; -webkit-border-radius:65px;-moz-border-radius:65px;-o-border-radius:65px;}
+
+.teacher_left {
+	width: 130px; float:left;
+}
+
+.teacher_right {
+	width: 472px; float: left;margin-left:40px;font-size: 12px;color:#646464; line-height:24px;
+}
+
+.teacher_bluebtn {
+	width:130px; height:30px; background: #0074b9;border: none;color: #fff;font-size: 12px;
+}
+.teacher_greenbtn {
+	width:130px; height:30px; background: #66cd33;border: none;color: #fff;font-size: 12px;
+}
+
+
+.teacher_span{ 
+
+	 display: block;float:left;  width: 130px;
+}
+
+.teachear_p {
+	width: 472px;  height:50px;
+}
+.teachear_p2 {
+	width: 472px;  height:50px; padding-top: 10px;
+}
+
+.teacher_trust {
+	 height: 230px; margin-top: 30px;
+}
+
+.trust_left {
+	width: 130px; float:left; font-size: 16px;
+}
+.trust_right{width:472px; float:left; margin-left: 40px;}
+.trust_right{width:472px; float:left; margin-left: 40px;}
+
+.approve{height: 40px; width:472px;}
+.approve li {
+	height: 40px; width:130px; float:left; color:#646464;float: left;
+}
+.approve img{ margin: 0; padding: 0;}
+.trust_pic {
+	  display:inline-block;width: 40px; height: 40px; line-height:40px; text-align: center; font-weight:500; font-size:18px; color:#fff;background-image:url(../images/trust2.jpg); margin-right: 10px;
+}
+.trust_pic2 {
+	  display:inline-block;width: 54px; height: 40px; line-height:40px;text-align: center; font-weight:500; font-size:18px; background-image:url(../images/trust1.png); margin-right: 10px;
+}
+
+.teacher_video {
+	width: 472px; height: 160px; margin-top: 25px;
+}
+.teacher_video li{ width:215px; height:160px; float:left; margin-left: 42px; }
+.teacher_video li:first-child{ margin-left:0px;}
+
+.treacher_grade {
+	width: 642px; height: 80px;
+}
+
+.trea_grade_left {
+	width: 130px; float:left;height: 80px;font-size: 18px; line-height: 80px;
+}
+
+.trea_grade_right {
+	width: 472px; float:left;margin-left: 40px;height: 80px;font-size: 18px; line-height: 80px;
+}
+
+.treacher_digest {
+	width: 642px; height: 50px;
+}
+
+.trea_digest_left {
+	width: 130px; float:left;height: 50px;font-size: 16px; 
+}
+
+.trea_digest_right {
+	width: 472px; float:left;margin-left: 40px;height: 80px; 
+}
+
+.trea_star {
+	width: 472px;
+}
+.trea_star span{ margin-left: 10px;}
+.trea_star li{ width:180px; float:left; margin-right:30px;}
+
+.treacher_minute {
+	width:642px; 
+}
+
+.student_minute {
+	width: 642px; height:125px; 
+}
+
+.student_Icon {
+	width: 130px; float:left; height: 90px; margin-top:30px;
+}
+.student_Icon span{ display: block; width:50px; height: 50px; border-radius: 50px; background:#ccc; margin-left: 80px;}
+
+.student_text {
+	width:472px; float:left;margin-left: 40px;height: 90px; margin-top:30px;
+}
+
+.stu_minute_time {
+	font-size: 12px; height: 25px; border-bottom: 1px solid #cbcbcb;
+}
