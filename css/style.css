@@ -321,10 +321,10 @@ a{
 .hot-course .list-group-item{
 	color: #66cc33;
 	font-size: 12px;
+	background-color: #151111;
 	margin-top: -16px;
 	margin-right: 12px;
-	padding:0px;
-	background-color: #151111;
+	padding:2px 4px;
 }
 /*中间轮播图片底部内容结束*/
 /*中间轮播图片结束*/
@@ -588,22 +588,21 @@ a{
 /*宁家伟*/
 /*王枫*/
 .content{width: 100%; }
-.merit{ width: 982px; height: 310px; margin:0 auto; background:#fff;}
-
-.merit_title{ height: 120px;line-height: 120px; text-align: center;font-size:28px; color:#808080;font-family: "Microsoft YaHei"; font-weight: bold;}
+.merit{ width: 982px; height: 330px; margin:0 auto; background:#fff;}
+.merit_title{ height: 120px;line-height: 120px; text-align: center;font-size: 40px; color:#808080;font-family: "Microsoft YaHei"; font-weight: 700;}
 .merit_small{position:absolute; top:50px;left: 67%; border-bottom:1px #b2b2b2 solid; color:#9e9e9e; font-size: 16px; font-weight: 200;}
 .merit ul{ width: 982px;  list-style: none; padding-left: 0px; font-family: "Microsoft YaHei"; color: #7f7f7f;}
 .merit li{ width:130px; float: left; margin-right: 40px; font-size:12px;letter-spacing:.9px;}
 .merit li:last-child{ margin-right: 0px;}
-.merit span{  font-size: 18px; font-family: "Microsoft YaHei";color:#4d4d4d;width: 130px; text-align: center;display: block;  margin-bottom: 20px; font-weight:bold;}
+.merit span{ width: 130px; text-align: center;display: block; font-size:18px; margin-bottom: 20px; color: #808080; font-weight: 600;}
 .community {width: 100%; height: 450px; background: #f1f1f1;}
-.community_title{height: 110px;line-height:110px; text-align: center;font-size:28px; color:#808080;font-family: "Microsoft YaHei"; font-weight: bold;}
+.community_title{height: 110px;line-height:110px; text-align: center;font-size: 40px; color:#808080;font-family: "Microsoft YaHei"; font-weight: 700;}
 .community_pic{ width: 1140px; margin: 0 auto;height: 300px;}
 .community_pic{ width: 1140px; margin: 0 auto;height: 300px;}
-.community_pic li{ width:252px;  list-style: none; float: left; margin-right: 40px;}
+.community_pic li{ width:252px;  list-style: none; float: left; margin-right: 44px;}
 .community_pic li:last-child{ margin-right: 0px;}
-.flow{ width: 982px; height: 380px; margin:0 auto; background:#fff; }
-.flow_title{ height: 120px;line-height: 120px; text-align: center;font-size:28px; color:#808080;font-family: "Microsoft YaHei"; font-weight: bold;}
+.flow{ width: 982px; height: 360px; margin:0 auto; background:#fff; }
+.flow_title{ height: 120px;line-height: 120px; text-align: center;font-size: 40px; color:#808080;font-family: "Microsoft YaHei"; font-weight: 700;}
 .flow_small{position:absolute; top:50px;left: 67%; border-bottom:1px #b2b2b2 solid; color:#9e9e9e; font-size: 14px; font-weight: 200;}
 .flow ul{width: 982px; padding-left: 0px; font-family: "Microsoft YaHei"; color: #7f7f7f;}
 .flow li{width: 131px; display: list-item; float:left; list-style: none;margin-right: 39px;font-size:12px;letter-spacing:.9px;}
@@ -612,7 +611,7 @@ a{
 .p_coin{font-family: "Microsoft YaHei";font-size: 14px; color: #000;}
 .p_coin a{font-family: "Microsoft YaHei";font-size: 14px; color: #000;}
 .footer{width: 100%; border-top: 1px solid #999;background: url(../images/footer.jpg); background-repeat: no-repeat; background-position: bottom;}
-.foot{ height: 300px; width: 982px; margin: 40px auto 0; }
+.foot{ height: 240px; width: 982px; margin: 40px auto 0; }
 .footLeft{ width: 538px; float: left; margin-left: 13px;  }
 .footRight{ width: 183px; float:left; margin-left: 235px; text-align: right;}
 .foot_list li{width: 79px; float: left; margin-right: 71px; list-style: none; text-align: center;}
