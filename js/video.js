@@ -29,7 +29,7 @@ $(function(){
 
             $("#toolsVideo")
                 .html('<iframe src="' + videoURL + '?title=0&amp;byline=0&amp;portrait=0&autoplay=1" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>')
-                .append('<div id="videoPopupClose" class="video-popup-close"></div>');
+                .append('<div id="videoPopupClose" class="video-popup-close"></div><div class="massage">学学看</div>');
 
         }
 
@@ -76,7 +76,7 @@ $(function(){
 
             $("#toolsVideo1")
                 .html('<iframe src="' + videoURL1 + '?title=0&amp;byline=0&amp;portrait=0&autoplay=1" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>')
-                .append('<div id="videoPopupClose1" class="video-popup-close"></div>');
+				.append('<div id="videoPopupClose" class="video-popup-close"></div><div class="massage">学学看</div>');
 
         }
 

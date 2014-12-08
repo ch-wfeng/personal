@@ -1,120 +1,45 @@
-html,body{
-	margin:0 auto;
-	font-family:"Microsoft YaHei";
+html, body {
+	margin: 0 auto;
+	font-family: "Microsoft YaHei";
 	font-size: 12px;
 }
-img{
-	border:none;
+img {
+	border: none;
 }
-ul{
-	margin:0;
-	padding:0;
+ul {
+	margin: 0;
+	padding: 0;
 	list-style-type: none;
 }
-a{
+a {
 	text-decoration: none;
 }
-.container{
+.container {
 	width: auto;
 }
-label{
-	font-weight:400;
+label {
+	font-weight: 400;
 }
 /*王雯洁*/
-/*头部导航栏*/
-.box-Head{
-	margin:0 auto;
-	width: 983px;
-	height: 60px;
-}
-.box-Head-Left{
-	float: left;
-}
-.logo{
-	float: left;
-	margin: 11px 10px 11px 0px;
-}
-.position{
-	float: left;
-	color: #ea6d65;
-	margin:28px 4px 0px 0px;
-}
-.position-icon{
-	margin-right: 18px;
-}
-.navigation{
-	float: left;
-}
-.list-group{
-	margin:18px 0px 0px;
-	color: #666666;
-}
-.list-group li{
-	float: left;
-	border:none;
-	margin-right: 5px;
-}
-.box-Head-Right{
-	float: right;
-}
-.help{
-	float: left;
-}
-.help-text{
-	margin-top: 9px;
-	margin-left: 5px;
-	float: left;
-}
-.help-text img{
-	float: right;
-	margin-top: 8px;
-	margin-left: 8px;
-}
-.issue-Button{
-	float:right;
-	width: 128px;
-	height: 30px;
-	background-color: #3399cc;
-	margin-top: 15px;
-	margin-left: 20px;
-}
-.issue-Button span{
-	font-size: 15px;
-	color: #fff;
-	line-height: 30px;
-	margin-left: 30px;
-}
-/*头部导航栏结束*/
 /*课程分类开始*/
 .box-Course {
 	margin: 0 auto;
-	width: 983px;
+	width: 982px;
 	height: 40px;
 	background-color: #f2f2f2;
 }
-.slide-menu{
-	z-index: 1;
-	position: absolute;
+.slide-menu {
 	width: 170px;
 	height: 38px;
-	margin-top: 0px;
-	margin-left: -14px;
 	background-color: #66cc33;
-	border-bottom:solid #0e0c0c 1px; 
-}
-.slide-menu-button{
 	font-size: 14px;
 	color: #fff;
 	line-height: 38px;
-	margin-left: 50px;
-	float: left;
+	text-align: center;
 }
-.slide-menu-button img{
-	float: right;
-	width: 11px;
-	height: 6px;
-	margin-top: 18px;
-	margin-left: 10px;
+.slide-menu img {
+	margin: 17px 0;
+	vertical-align: middle;
 }
 /*课程分类结束*/
 /*王雯洁*/
@@ -140,12 +65,14 @@ label{
 }
 .grade_title {
 	width: 100px;
+	_width: 80px;
 	float: left;
 	padding-left: 20px;
 	margin-top: 25px;
 }
 .grade_input {
 	width: 200px;
+	_width: 180px;
 	float: left;
 	margin-top: 25px;
 }
@@ -157,12 +84,14 @@ label{
 }
 .time_title {
 	width: 100px;
+	_width: 80px;
 	float: left;
 	padding-left: 20px;
 	margin-top: 15px;
 }
 .time_input {
 	width: 200px;
+	_width: 180px;
 	float: left;
 	margin-top: 15px;
 }
@@ -174,12 +103,14 @@ label{
 }
 .mode_title {
 	width: 100px;
+	_width: 80px;
 	float: left;
 	padding-left: 20px;
 	margin-top: 25px;
 }
 .mode_input {
 	width: 200px;
+	_width: 180px;
 	float: left;
 	margin-top: 25px;
 }
@@ -192,12 +123,14 @@ label{
 }
 .site_title {
 	width: 100px;
+	_width: 80px;
 	float: left;
 	padding-left: 20px;
 	margin-top: 25px;
 }
 .site_input {
 	width: 200px;
+	_width: 180px;
 	float: left;
 	margin-top: 25px;
 }
@@ -209,12 +142,14 @@ label{
 }
 .age_title {
 	width: 100px;
+	_width: 80px;
 	float: left;
 	padding-left: 20px;
 	margin-top: 25px;
 }
 .age_input {
 	width: 200px;
+	_width: 180px;
 	float: left;
 	margin-top: 25px;
 }
@@ -227,6 +162,7 @@ label{
 }
 .seek_title {
 	width: 100px;
+	_width: 80px;
 	float: left;
 	padding-left: 20px;
 	margin-top: 50px;
@@ -267,6 +203,12 @@ label{
 	float: left;
 	height: 30px;
 }
+.lessons_item3 {
+	width: 77px;
+	float: left;
+	height: 30px;
+	_letter-spacing: -1px;
+}
 .lessons_iconfont {
 	width: 200px;
 	float: left;
@@ -286,14 +228,22 @@ label{
 .seek_btn {
 	width: 24px;
 	height: 21px;
+	float: left;
 	background: #66ce32;
 	padding: 0;
 	border: 0px;
 }
-.seekInput {
-	width: 125px;
-	margin-right: 0px;
+.seek_btn2 {
+	width: 25px;
+	height: 25px;
+	padding-top: 0px;
 	border: 0px;
+	background: url(/images/icon-menu-search.png) #63ce31;
+}
+.seekInput {
+	width: 160px;
+	border: 0px;
+	float: left;
 }
 .arrow-up {
 	width: 0;
@@ -306,8 +256,8 @@ label{
 }
 @font-face {
 	font-family: "iconfont";
-	src: url('../font/iconfont.eot'); /* IE9*/
-	src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */  url('../font/iconfont.woff') format('woff'), /* chrome、firefox */  url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/  url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+	src: url('../fonts/iconfont.eot'); /* IE9*/
+	src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/iconfont.woff') format('woff'), /* chrome、firefox */ url('../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
 .iconfont {
 	font-family: "iconfont" !important;
@@ -324,7 +274,7 @@ label{
 	content: "\f001c";
 }
 .lessons_icon {
-	padding-left: 0	px;
+	padding-left: 0 px;
 }
 /*王枫*/
 /*宁家伟*/
@@ -343,7 +293,8 @@ label{
 	font-size: 13px;
 	color: #000;
 	margin-right: 20px;
-	float: left
+	float: left;
+	list-style: none;
 }
 .lessons-right-nav li:first-child {
 	color: #8e8e8e;
@@ -369,10 +320,10 @@ label{
 .all-type-marginleft {
 	margin-left: 41px;
 	float: left;
+	display: inline
 }
 .all-type-marginleft2 {
-	margin-left: 26px;
-	float: left;
+	float: right;
 }
 .lessons-all-result {
 	width: auto;

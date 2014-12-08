@@ -1,123 +1,52 @@
-html,body{
-	margin:0 auto;
-	font-family:"Microsoft YaHei";
+html, body {
+	margin: 0 auto;
+	font-family: "Microsoft YaHei";
 	font-size: 12px;
 }
-img{
-	border:none;
+img {
+	border: none;
 }
-ul{
-	margin:0;
-	padding:0;
+ul {
+	margin: 0;
+	padding: 0;
 	list-style-type: none;
 }
-a{
+a {
 	text-decoration: none;
 }
-.container{
+.container {
 	width: auto;
 }
 /*王雯洁*/
-/*头部导航栏*/
-.box-Head{
-	margin:0 auto;
-	width: 983px;
-	height: 60px;
-}
-.box-Head-Left{
-	float: left;
-}
-.logo{
-	float: left;
-	margin: 11px 10px 11px 0px;
-}
-.position{
-	float: left;
-	color: #ea6d65;
-	margin:28px 4px 0px 0px;
-}
-.position-icon{
-	margin-right: 18px;
-}
-.navigation{
-	float: left;
-}
-.list-group{
-	margin:18px 0px 0px;
-	color: #666666;
-}
-.list-group li{
-	float: left;
-	border:none;
-	margin-right: 5px;
-}
-.box-Head-Right{
-	float: right;
-}
-.help{
-	float: left;
-}
-.help-text{
-	margin-top: 9px;
-	margin-left: 5px;
-	float: left;
-}
-.help-text img{
-	float: right;
-	margin-top: 8px;
-	margin-left: 8px;
-}
-.issue-Button{
-	float:right;
-	width: 128px;
-	height: 30px;
-	background-color: #3399cc;
-	margin-top: 15px;
-	margin-left: 20px;
-}
-.issue-Button span{
-	font-size: 15px;
-	color: #fff;
-	line-height: 30px;
-	margin-left: 30px;
-}
-/*头部导航栏结束*/
 /*中间轮播图片开始*/
-.box-BackgroundImg{
-	margin:0 auto;
+.box-BackgroundImg {
+	width: 100%;
+	height: 400px;
+	background-color: #016995;
+}
+.background-top {
 	width: 1200px;
 	height: 400px;
+	margin: 0 auto;
+	background: url(../images/img-swimming-pic.jpg);
+	_background:url(../images/img-swimming-pic.jpg);
+	
 }
-.box-BackgroundImg img{
-	width: 1200px;
-	height: 400px;
-}
-.background-top{
-	float: left;
-}
-.slide-menu{
-	z-index: 1;
-	position: absolute;
+.slide-menu {
 	width: 170px;
 	height: 38px;
-	margin-top: -400px;
-	margin-left: -30px;
 	background-color: #66cc33;
-	border-bottom:solid #0e0c0c 1px; 
-}
-.slide-menu-button{
 	font-size: 14px;
 	color: #fff;
 	line-height: 38px;
-	margin-left: 50px;
-	float: left;
+	text-align: center;
+	display: inline-block;
 }
-.slide-menu-button img{
-	float: right;
+.slide-menu img {
 	width: 11px;
 	height: 6px;
-	margin-top: 18px;
-	margin-left: 10px;
+	margin: 17px 0;
+	vertical-align: middle;
 }
 /*课程名开始
 .background-middle{
@@ -131,40 +60,40 @@ a{
 }*/
 /*中间轮播图片开始*/
 /*课程详情开始*/
-.box-details{
-	margin:0 auto;
-	width: 1200px;
+.box-details {
+	margin: 0 auto;
 	height: auto;
+	width: 982px;
 }
-.details-left{
+.details-left {
 	float: left;
 	margin-top: 18px;
 }
-.left{
+.left {
 	float: left;
 	color: #999999;
 	font-size: 15px;
 	margin-right: 85px;
-	margin-left: 94px;
 	letter-spacing: 1px;
 }
-.left img{
+.left img {
 	margin-bottom: 13px;
+	margin-left: 10px;
+	_margin-top: 35px;
 }
-.left .left-teacher{
+.left .left-teacher {
 	color: #999999;
 	font-size: 12px;
-	margin-left: -15px;
+	_margin-left: 15px;
 }
-.left .left-fabu{
+.left .left-fabu {
 	color: #000;
 	font-size: 13px;
 }
-.right{
-	float: right;
+.right {
+	float: left;
 	font-size: 28px;
 	color: #4d4d4d;
-	margin-top: -6px;
 }
 /*
 .course-classify{
@@ -172,34 +101,36 @@ a{
 	color: #999;
 	margin-left: 12px;
 }*/
-.course-introduce{
+.course-introduce {
 	font-size: 12px;
 	color: #999999;
 	margin-top: 23px;
 }
-.course-introduce img{
+.course-introduce img {
 	margin-right: 7px;
 	margin-top: -3px;
 }
-.course-judge{
+.course-judge {
 	margin-top: 20px;
 	font-size: 12px;
 	color: #b3b3b3;
 }
-.course-judge img{
+.course-judge img {
 	margin-right: 4px;
 	margin-top: -3px;
 }
-.details-right{
+.details-right {
 	float: right;
 }
-.box-Coursedetail{
+.box-Coursedetail {
 	width: 300px;
 	height: auto;
-	margin-top: -51px;
-	margin-right: 79px;
 }
-.course-pic{
+.course-pic {
+	position: relative;
+	left: 681px;
+	_left:786px;
+	top: 350px;
 	height: 50px;
 	width: 300px;
 	background-color: #4d4d4d;
@@ -207,18 +138,18 @@ a{
 	font-size: 17px;
 	line-height: 50px;
 }
-.course-pic span{
+.course-pic span {
 	font-size: 30px;
 	line-height: 50px;
 	margin-left: 40px;
 	margin-right: 47px;
 }
-.course-details{
+.course-details {
 	height: auto;
 	background-color: #fff;
 	color: #989898;
 }
-.requer{
+.requer {
 	width: 348px;
 	height: 234px;
 	background-color: #343434;
@@ -227,69 +158,70 @@ a{
 	position: absolute;
 	margin-top: -218px;
 }
-.requer-title{
-	margin:35px 35px 10px 35px;
+.requer-title {
+	margin: 35px 35px 10px 35px;
 	font-size: 21px;
-	font-weight:bolder;
+	font-weight: bolder;
 	color: #808080;
 }
-.requer-content{
-	margin:0px 35px;
+.requer-content {
+	margin: 0px 35px;
 	font-size: 17px;
 	color: #cbcbcc;
 }
-.requer-ques-left{
+.requer-ques-left {
 	float: left;
 	text-decoration: underline;
-	margin:10px 0px 0px 35px;
+	margin: 10px 0px 0px 35px;
 	font-size: 17px;
 	color: #808080;
 }
-.requer-ques-right{
+.requer-ques-right {
 	float: right;
 	text-decoration: underline;
-	margin:10px 35px 0px 0px;
+	margin: 10px 35px 0px 0px;
 	font-size: 17px;
 	color: #808080;
 }
-.course-details-way{
+.course-details-way {
 	float: left;
-	margin:32px 0px 0px 58px;
+	margin: 32px 0px 0px 58px;
 	font-size: 21px;
 }
-.price{
+.price {
 	font-size: 21px;
 	margin-left: 82px;
 }
-.course-details-protect{
+.course-details-protect {
 	float: left;
-	font-size: 16px; 
+	font-size: 16px;
 	color: #989898;
-	margin-top: 20px;
+	vertical-align: middle;
+	margin: 15px 0;
 	margin-left: 34px;
-	margin-bottom: 25px;
+	_width:234px;
 }
-.course-details-protect img{
+.course-details-protect img {
 	margin-left: 7px;
 }
-.totle-price{
+.totle-price {
 	float: left;
 	margin-left: 34px;
 	font-size: 12px;
 	color: #666;
-	margin-bottom: 18px;
+	margin-bottom: 5px;
 }
-.totle-price  .course-price{
+.totle-price .course-price {
 	font-size: 30px;
 	margin-right: 40px;
 	margin-left: 7px;
 	color: #666;
 }
-.course{
+.course {
 	font-size: 17px;
 	color: #666;
 }
-.course-book{
+.course-book {
 	float: left;
 	width: 300px;
 	height: 50px;
@@ -301,11 +233,11 @@ a{
 	letter-spacing: 18px;
 	margin-bottom: 20px;
 }
-.course-collect{
+.course-collect {
 	float: left;
 	width: 300px;
 	height: 50px;
-	border:solid 1px #989898;
+	border: solid 1px #989898;
 	color: #989898;
 	background-color: #f1f1f1;
 	font-size: 20px;
@@ -314,59 +246,65 @@ a{
 	letter-spacing: 20px;
 	margin-bottom: 9px;
 }
-.course-collect img{
+.course-collect img {
 	margin-right: 55px;
+	_margin-top:15px;
 }
-.course-share{
-	float: left;
+.course-share {
 	color: #989898;
 	font-size: 12px;
 	margin-left: 103px;
 }
-.course-share img{
+.course-share img {
 	margin-right: 16px;
 }
 /*课程详情结束*/
 /*关于课程开始*/
-.box-about-course{
+.box-about-course {
 	width: 100%;
 	height: 487px;
-	margin-top: -96px;
+	margin-top: 150px;
+	_margin-top: 0px;
 	background-color: #f2f2f2;
 }
-.about-course-totle{
+.box-about-course1 {
+	margin: 0 auto;
+	width: 982px;
+	;
+}
+.about-course-totle {
 	width: 642px;
 	height: auto;
-	margin-left: 306px;
+	float: left;
 }
-@-moz-document url-prefix(){
+/*@-moz-document url-prefix(){
 	.about-course-totle{
-		margin-top: -96px;
+		margin-left: 100px;
 	}
-} 
-.about-course-title{
+} */
+.about-course-title {
 	margin-bottom: 18px;
 	font-size: 20px;
 	color: #333;
 	margin-top: 26px;
 }
-.about-course-content{
+.about-course-content {
 	font-size: 12px;
 	color: #4d4d4d;
 	line-height: 24px;
 }
-.about-course-btn{
+.about-course-btn {
 	margin-top: 15px;
 	margin-bottom: 18px;
 	width: 130px;
 	height: 30px;
-	background-color:#66cc33;
+	background-color: #66cc33;
 	font-size: 12px;
 	color: #fff;
 	text-align: center;
 	line-height: 30px;
 }
-.about-course-pic img{
+.about-course-pic img {
 	width: 642px;
 	height: 282px;
 }
@@ -375,127 +313,234 @@ a{
 
 /*Wang Feng*/
 .about_teacherbox {
-	 width: 982px; margin: 0 auto;font-family: "Microsoft YaHei";
+	width: 982px;
+	margin: 0 auto;
+	font-family: "Microsoft YaHei";
+	overflow: auto;
 }
-.teacher_minute{border-top:1px solid #cbcbcb;}
-
-.about_teacher{
-	width: 642px; float: left;
+.about_teacherbox2 {
+	width: 982px;
+	margin: 0 auto;
+	font-family: "Microsoft YaHei";
+	height: auto;
 }
-
+.about_teacher {
+	width: 642px;
+	float: left;
+}
 .teacher_title {
-	height: 75px; line-height: 75px; font-size: 18px;
+	height: 75px;
+	line-height: 75px;
+	font-size: 18px;
 }
-
 .teacher_info {
-	 height: 170px;
+	height: 170px;
 }
-
-.teacher_left img{ width: 130px; height: 130px; border-radius:65px; -webkit-border-radius:65px;-moz-border-radius:65px;-o-border-radius:65px;}
-
+.teacher_left img {
+	width: 130px;
+	height: 130px;
+	border-radius: 65px;
+	-webkit-border-radius: 65px;
+	-moz-border-radius: 65px;
+	-o-border-radius: 65px;
+	-ms-border-radius: 65px;
+}
 .teacher_left {
-	width: 130px; float:left;
+	width: 130px;
+	float: left;
 }
-
 .teacher_right {
-	width: 472px; float: left;margin-left:40px;font-size: 12px;color:#646464; line-height:24px;
+	width: 472px;
+	float: left;
+	margin-left: 40px;
+	font-size: 12px;
+	color: #646464;
+	line-height: 24px;
 }
-
 .teacher_bluebtn {
-	width:130px; height:30px; background: #0074b9;border: none;color: #fff;font-size: 12px;
+	width: 130px;
+	height: 30px;
+	background: #0074b9;
+	border: none;
+	color: #fff;
+	font-size: 12px;
 }
 .teacher_greenbtn {
-	width:130px; height:30px; background: #66cd33;border: none;color: #fff;font-size: 12px;
+	width: 130px;
+	height: 30px;
+	background: #66cd33;
+	border: none;
+	color: #fff;
+	font-size: 12px;
 }
-
-
-.teacher_span{ 
-
-	 display: block;float:left;  width: 130px;
+.teacher_span {
+	display: block;
+	float: left;
+	width: 130px;
 }
-
 .teachear_p {
-	width: 472px;  height:50px;
+	width: 472px;
+	height: 50px;
 }
 .teachear_p2 {
-	width: 472px;  height:50px; padding-top: 10px;
+	width: 472px;
+	height: 50px;
+	padding-top: 10px;
 }
-
 .teacher_trust {
-	 height: 230px; margin-top: 30px;
+	height: 230px;
+	margin-top: 30px;
 }
-
 .trust_left {
-	width: 130px; float:left; font-size: 16px;
+	width: 130px;
+	float: left;
+	font-size: 16px;
 }
-.trust_right{width:472px; float:left; margin-left: 40px;}
-.trust_right{width:472px; float:left; margin-left: 40px;}
-
-.approve{height: 40px; width:472px;}
+.trust_right {
+	width: 472px;
+	float: left;
+	margin-left: 40px;
+}
+.trust_right {
+	width: 472px;
+	float: left;
+	margin-left: 40px;
+}
+.approve {
+	height: 40px;
+	width: 472px;
+}
 .approve li {
-	height: 40px; width:130px; float:left; color:#646464;float: left;
+	height: 40px;
+	width: 130px;
+	float: left;
+	color: #646464;
+	float: left;
 }
-.approve img{ margin: 0; padding: 0;}
+.approve img {
+	margin: 0;
+	padding: 0;
+}
 .trust_pic {
-	  display:inline-block;width: 40px; height: 40px; line-height:40px; text-align: center; font-weight:500; font-size:18px; color:#fff;background-image:url(../images/trust2.jpg); margin-right: 10px;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 18px;
+	color: #fff;
+	background-image: url(../images/trust2.jpg);
+	margin-right: 10px;
 }
 .trust_pic2 {
-	  display:inline-block;width: 54px; height: 40px; line-height:40px;text-align: center; font-weight:500; font-size:18px; background-image:url(../images/trust1.png); margin-right: 10px;
+	display: inline-block;
+	width: 54px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 18px;
+	background-image: url(../images/trust1.png);
+	margin-right: 10px;
 }
-
 .teacher_video {
-	width: 472px; height: 160px; margin-top: 25px;
+	width: 472px;
+	height: 160px;
+	margin-top: 25px;
 }
-.teacher_video li{ width:215px; height:160px; float:left; margin-left: 42px; }
-.teacher_video li:first-child{ margin-left:0px;}
-
+.teacher_video li {
+	width: 215px;
+	height: 160px;
+	float: left;
+	margin-left: 42px;
+}
+.teacher_video li:first-child {
+	margin-left: 0px;
+}
 .treacher_grade {
-	width: 642px; height: 80px;
+	width: 642px;
+	height: 80px;
 }
-
 .trea_grade_left {
-	width: 130px; float:left;height: 80px;font-size: 18px; line-height: 80px;
+	width: 130px;
+	float: left;
+	height: 80px;
+	font-size: 18px;
+	line-height: 80px;
 }
-
 .trea_grade_right {
-	width: 472px; float:left;margin-left: 40px;height: 80px;font-size: 18px; line-height: 80px;
+	width: 472px;
+	float: left;
+	margin-left: 40px;
+	height: 80px;
+	font-size: 18px;
+	line-height: 80px;
 }
-
 .treacher_digest {
-	width: 642px; height: 50px;
+	width: 642px;
+	height: 50px;
 }
-
 .trea_digest_left {
-	width: 130px; float:left;height: 50px;font-size: 16px; 
+	width: 130px;
+	float: left;
+	height: 50px;
+	font-size: 16px;
 }
-
 .trea_digest_right {
-	width: 472px; float:left;margin-left: 40px;height: 80px; 
+	width: 472px;
+	float: left;
+	margin-left: 40px;
+	height: 80px;
 }
-
 .trea_star {
 	width: 472px;
 }
-.trea_star span{ margin-left: 10px;}
-.trea_star li{ width:180px; float:left; margin-right:30px;}
-
+.trea_star span {
+	margin-left: 10px;
+}
+.trea_star li {
+	width: 180px;
+	float: left;
+	margin-right: 30px;
+}
 .treacher_minute {
-	width:642px; 
+	width: 642px;
 }
-
 .student_minute {
-	width: 642px; height:125px; 
+	width: 642px;
+	height: 125px;
 }
-
 .student_Icon {
-	width: 130px; float:left; height: 90px; margin-top:30px;
+	width: 130px;
+	float: left;
+	height: 90px;
+	margin-top: 30px;
 }
-.student_Icon span{ display: block; width:50px; height: 50px; border-radius: 50px; background:#ccc; margin-left: 80px;}
-
+.student_Icon span {
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background: #ccc;
+	margin-left: 80px;
+}
 .student_text {
-	width:472px; float:left;margin-left: 40px;height: 90px; margin-top:30px;
+	width: 472px;
+	float: left;
+	margin-left: 40px;
+	height: 90px;
+	margin-top: 30px;
 }
-
 .stu_minute_time {
-	font-size: 12px; height: 25px; border-bottom: 1px solid #cbcbcb;
+	font-size: 12px;
+	height: 25px;
+	border-bottom: 1px solid #cbcbcb;
+}
+.about-course-right {
+	float: left;
+	margin-left: 40px;
+	_margin-left: 38px;
+	_margin-right: 0px;
+	width: 300px;
 }
