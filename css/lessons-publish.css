@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+input {
+	font-size: 12px;
+	border: 1px #c9c9ca solid;
+	height: 38px;
+	padding-left: 10px;
+	margin-top: 20px;
+	color:#929292;
+}
+form{ display: inline-block;}
+select{ padding-left:10px;}
+option{ padding-left:10px;}
+textarea {
+	border: 1px #c9c9ca solid;
+	padding:10px 10px 0 10px;
+	margin-top: 20px;
+	display: block;
+	line-height:20px;
+	color:#929292;
+	clear: both;
+}
+.lessons-publish-box {
+	width: 982px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+	margin-top: 20px;
+}
+.about-lessons {
+	line-height: 60px;
+	width: 100%;
+	background-color: #39c;
+	text-align: center;
+	font-size: 16px;
+	color: #fff
+}
+.about-teacher-bg {
+	background-color: #ea6d65;
+}
+.must-write {
+	width: 548px;
+	height: 58px;
+	padding-left: 60px;
+	background-color: #fff;
+	color: #ea6d65;
+	border: 1px solid #ea6d65;
+	margin: 20px auto 0;
+}
+.option-write {
+	width: 548px;
+	height: 38px;
+	padding-left: 60px;
+	background-color: #fff;
+	color: #ea6d65;
+	border: 1px solid #ea6d65;
+	margin: 20px auto 0;
+}
+.option-write p {
+	line-height: 38px;
+}
+.must-write p {
+	line-height: 20px;
+	margin-top: 5px;
+}
+.lessons-info {
+	width: 982px;
+	color: #666;
+	display: inline-block;
+}
+.lessons-td-left {
+	width: 273px;
+	text-align: right;
+	float: left;
+}
+.lessons-td-left p {
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+}
+.lessons-td-leftgap {
+	height: 33px;
+	margin-top: 20px;
+}
+.lessons-td-leftgap2 {
+	height: 33px;
+	margin-top: 88px;
+}
+.lessons-td-leftgap3 {
+
+}
+.lessons-td-right {
+	width: 520px;
+	margin-left: 19px;
+	float: left;
+	color: #bcbec0;
+}
+.lessons-td-right-midinput {
+	width: 288px;
+}
+.lessons-td-right-shortinput {
+	width: 118px;
+	display: block;
+}
+.lessons-td-rightbutton {
+	width: 118px;
+	height: 38px;
+	margin-top: 20px;
+	background-color: #c9c9ca;
+	margin-right: 7px;
+	_margin-right: 10px;
+	color: #FFF;
+}
+.redbutton{ background-color:#ea6d65}
+.no-margin-right {
+	margin-right: -5px;
+}
+.lessons-td-right select {
+	width: 300px;
+	height: 40px;
+	margin-top: 20px;
+	_margin-top: 33px;
+	border: 1px #c9c9ca solid;
+}
+.lessons-td-right-tip {
+	width: 492px;
+	_margin-top: 23px;
+}
+.lessons-time {
+	position: relative;
+}
+.lessons-time select {
+	width: 130px;
+}
+.time-position {
+	position: absolute;
+	top: 32px;
+	left: 140px;
+	color: #725F62;
+}
+.money-position {
+	position: absolute;
+	top: 92px;
+	left: 140px;
+	color: #725F62;
+}
+.lessons-time-position {
+	position: absolute;
+	top: 152px;
+	left: 140px;
+	color: #725F62;
+	_top: 138px;
+}
+.lessons-right-table {
+	height: 158px;
+	width: 504px;
+	border: 1px #c9c9ca solid;
+	margin-top: 20px;
+	background-color: #fff;
+}
+.lessons-right-table td {
+	text-align: center;
+	color: #000;
+	cursor:pointer;
+}
+.addtdbg{ background:url(../images/lessons-time-bg.png) no-repeat 15px;}
+.lessons-right-lowtxtarea {
+	width: 482px;
+	height: 88px;
+}
+.lessons-right-hightxtarea {
+	width: 482px;
+	height: 208px;
+}
+.lessons-add-pic {
+	width: 248px;
+	height: 158px;
+	margin-top: 20px;
+	float: left;
+	text-align: center;
+	border: 1px #c9c9ca solid;
+	margin-right: 5px;
+	color: #000;
+}
+.lessons-add-pic img {
+	margin-top: 45px;
+	margin-bottom: 15px;
+}
+.lessons-add-tip {
+	width: 248px;
+	height: 160px;
+	margin-top: 20px;
+	float: left;
+	margin-left: 10px;
+	line-height: 20px;
+	color: #929292;
+}
+.add-tip-gap {
+	margin-top: 25px;
+}
+.last-btn {
+	text-align: center;
+	font-size: 15px;
+	margin-top: 20px;
+}
+.last-teacher-btn {
+	margin-top: 40px;
+}
+.last-btn button {
+	line-height: 40px;
+	height: 40px;
+	width: 120px;
+}
+.last-btn-cancel {
+	margin: 0 10px 40px 385px;
+	color: #808285;
+	background-color: #fff;
+	display: inline-block
+}
+.last-btn-sub {
+	color: #fff;
+	background-color: #ea6d65;
+}

@@ -1,0 +1,70 @@
+button{ cursor: pointer;}
+input{ color:#bcbec0;}
+.wallet-count-box{ width: 100%; height: 100px; background-color: #ff9100;
+ color: #fff;}
+.wallet-count{ width: 982px;   margin: 0 auto;}
+.wallet-count-left{ height: 100px; width: 150px; float: left; }
+.wallet-left-font{ line-height: 100px; font-size:20px; color: #fff; float:left; font-weight: lighter; margin-left: 19px; margin-top: 1px; }
+.wallet-left-img{ float: left;}
+.wallet-count-right1{ height: 100px; width: 150px; float: right; margin-right: 4px;}
+.wallet-count-right2{ height: 100px; width: 156px; float: right; font-size: 16px; margin-top: 33px;}
+.count-right1-title{  font-size: 41.77px; margin-top: 9px;}
+.count-right1-cont{ font-size: 12px; margin-top: 4px; margin-left: 30px;}
+.wallet-bank-boxout{  width: 100%;}
+.wallet-bank-boxin{ width: 982px;   margin: 0 auto; }
+.recharge-withdraw{ font-size: 16px; line-height: 60px; color: #686868;}
+.bank-box{ width: 300px; height: 160px; background-color: #f2f2f2; margin-right: 41px; float: left; margin-top: 41px; display: inline-block;}
+.choose-bank-title{ width: 277px; background-color: #ff9100;
+ color: #fff; padding-left: 23px; font-size: 16px; line-height: 40px;}
+ .nochoose-bank-title{ background-color: #898989;}
+.bank-info{ width: 300px; height: 120px; display: inline-block; position: relative;}
+.bank-info-name{ margin-top: 16px; color: #666; margin-left: 21px;}
+.bank-info-number{margin-top: 11px; color: #666; margin-left: 21px;}
+.choose-bank-icon{ position: absolute; height: 30px; width: 30px; 
+left:260px; top:80px; background-image: url("../images/choose-bank-icon.png");}
+.nochoose-bank-icon{ background-image: url("../images/nochoose-bank-icon.png");}
+.add-bank-card{ font-size: 15px; color: #686868; text-align: center; width: 300px; margin-top: 7px;}
+.recharge-withdraw-box{ width: 982px; margin: 0 auto;}
+.recharge-withdraw-box p{ line-height: 40px; color: #808080;}
+.recharge-withdraw-box input{ width: 278px; margin-right: 41px; float: left; height: 38px; color: #bcbec0; line-height: 38px; border: 1px solid #e6e6e6; background-color: #f2f2f2; padding-left: 20px;}
+.recharge-withdraw-box button{  height: 40px; line-height: 40px; text-align: center; font-size: 15px; color: #fff;}
+.recharge-withdraw-btn1{ background-color: #ff9100; margin-right: 20px; width: 138px; }
+.recharge-withdraw-btn2{ background-color:#c9c9ca; width: 138px;}
+.recharge-withdraw-btn3{ background-color:#c9c9ca; margin: 20px 0 50px; width: 300px; float: right; }
+.alert-add-card {width:100%;z-index:1000;position:fixed;_position:absolute;top:30%; left: 0%;display: none;}
+.alert-check-info {width:100%;z-index:1000;position:fixed;_position:absolute;top:30%; left: 0%; display: none}
+#add-bank-card{ margin: 0 auto; background:#ed6a65; width: 982px;height:180px;}
+.alert-add-card p{ line-height: 60px; font-size: 16px; color: #fff; text-align: center;}
+#check-info{ margin: 0 auto; background:#ed6a65; width: 982px;height:180px;}
+.alert-add-card span{ width: 630px; margin: 0 auto; display: block; text-align: center;}
+.alert-check-info span{ width: 630px; margin: 0 auto; display: block; text-align: center;}
+.alert-add-card input{ height: 40px; width: 280px; line-height: 37px; font-size: 16px; padding-left: 20px; margin-left: 10px;}
+.alert-add-card button{ height: 40px; width: 120px; margin-top: 19px; _margin-left: 5px; margin-left: 10px;}
+.alert-check-info button{ height: 40px; width: 120px; _margin-left: 5px; margin-left: 10px;}
+.alert-check-info h3{ line-height: 60px; font-size: 16px; color: #fff; text-align: center;}
+.alert-check-info p{ line-height: 12px; color: #58585a; text-align: center; margin-bottom: 18px;}
+.mybg{ position: absolute; z-index: 500; background-color: #000; _background-color: none;display: none; filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+left: 0; top: 0;}
+.alert-recharge-success{ width:100%; z-index:1000; position:fixed; _position:absolute;top:30%; left: 0%; display: none;  color: #fff;}
+.alert-recharge-success p{ font-size: 16px; margin-top: 5px;}
+#recharge-success{ margin: 0 auto; background:#ed6a65; width: 982px;height:130px; text-align: center;}
+.alert-recharge-fail{ width:100%; z-index:1000; position:fixed;_position:absolute; top:30%; left: 0%; display: none;  color: #fff;}
+.alert-recharge-fail p{font-size: 16px; margin-top: 5px;}
+#recharge-fail{ margin: 0 auto; background:#898989; width: 982px;height:130px; text-align: center;}
+.alert-withdraw-success{ width:100%; z-index:1000; position:fixed;_position:absolute; top:30%; left: 0%; display: none;color: #fff;}
+#withdraw-success{ margin: 0 auto; background:#ed6a65; width: 982px;height:170px; text-align: center;}
+.alert-withdraw-success div{ font-size: 16px; margin-top: 5px; }
+.alert-withdraw-success p{ font-size: 14px; margin-top: 15px;}
+.alert-withdraw-fail{ width:100%; z-index:1000; position:fixed;_position:absolute; top:30%; left: 0%; display: none;  color: #fff;}
+.alert-withdraw-fail p{font-size: 16px; margin-top: 5px;}
+#withdraw-fail{ margin: 0 auto; background:#898989; width: 982px;height:130px; text-align: center;}
+.alert-change-password {width:100%;z-index:1000;position:fixed;_position:absolute;top:30%; left: 0%;color: #fff; display: none;}
+#change-password{ margin: 0 auto; background:#ed6a65; width: 982px;height:230px;}
+.alert-change-password h3{ line-height: 60px; font-size: 16px;  text-align: center;}
+#change-password div{ width: 630px; margin: 0 auto; display: block; text-align: center;}
+.alert-change-password input{ height: 40px; width: 280px; line-height: 37px; font-size: 16px; padding-left: 20px; margin-bottom: 10px; margin-left: 10px;}
+.alert-change-password button{ height: 40px; width: 120px; margin-top: 9px; _margin-left: 5px; margin-left: 10px;}
+.alert-change-password span{ display: block; float: left; margin-bottom: 10px;  _margin-bottom: 0px; height: 40px; margin-right: 10px; line-height: 40px; margin-left: 3px;_margin-left: 1px;}

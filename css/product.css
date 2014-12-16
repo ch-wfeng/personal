@@ -1,23 +1,41 @@
-html, body {
-	margin: 0 auto;
-	font-family: "Microsoft YaHei";
-	font-size: 12px;
-}
-img {
-	border: none;
-}
-ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-a {
-	text-decoration: none;
-}
-.container {
-	width: auto;
-}
 /*王雯洁*/
+.issue-Button{
+	_margin-top:-34px;
+}
+/*头部导航开始*/
+.box-head-Middle{
+	float: left;
+	margin-top: 15px;
+	margin-right: 20px;
+	position: relative;
+}
+.box-head-Middle input{
+	border:1px solid #cbcbcb;
+	color: #cbcbcb;
+	font-size: 12px;
+	width: 180px;
+	height: 30px;
+	padding-left: 12px;
+}
+.box-head-Middle img{
+	position: absolute;
+	margin-left: -27px;
+	margin-top: 6px;
+}
+.head-pic{
+	width: 31px;
+	height: 31px;
+	margin-top: -10px;
+	margin-right: 9px;
+}
+.list-group li span{
+	margin-left: 5px;
+}
+.head-appointment{
+	margin-right: 9px;
+	margin-top: -3px;
+}
+/*头部导航结束*/
 /*中间轮播图片开始*/
 .box-BackgroundImg {
 	width: 100%;
@@ -25,12 +43,11 @@ a {
 	background-color: #016995;
 }
 .background-top {
-	width: 1200px;
+	width: 982px;
 	height: 400px;
 	margin: 0 auto;
 	background: url(../images/img-swimming-pic.jpg);
-	_background:url(../images/img-swimming-pic.jpg);
-	
+	_background:url(../images/img-swimming-pic.jpg);	
 }
 .slide-menu {
 	width: 170px;
@@ -62,12 +79,17 @@ a {
 /*课程详情开始*/
 .box-details {
 	margin: 0 auto;
-	height: auto;
 	width: 982px;
+    min-height:100px;
+    height:auto !important;
+    height:100px;
+    overflow:hidden !important;
+    overflow: visible;  
 }
 .details-left {
 	float: left;
 	margin-top: 18px;
+	width: 636px;	background: #fff;
 }
 .left {
 	float: left;
@@ -120,11 +142,11 @@ a {
 	margin-top: -3px;
 }
 .details-right {
-	float: right;
+	width: 300px; float: right;	background: #fff;
 }
 .box-Coursedetail {
 	width: 300px;
-	height: auto;
+	height: 50px;
 }
 .course-pic {
 	position: relative;
@@ -157,6 +179,7 @@ a {
 	z-index: 1;
 	position: absolute;
 	margin-top: -218px;
+	margin-left: -48px;
 }
 .requer-title {
 	margin: 35px 35px 10px 35px;
@@ -324,6 +347,8 @@ a {
 	font-family: "Microsoft YaHei";
 	height: auto;
 }
+
+
 .about_teacher {
 	width: 642px;
 	float: left;
@@ -507,16 +532,21 @@ a {
 .treacher_minute {
 	width: 642px;
 }
+.evaluate_minute {
+	width: 642px;
+}
 .student_minute {
 	width: 642px;
 	height: 125px;
 }
+
 .student_Icon {
 	width: 130px;
 	float: left;
 	height: 90px;
 	margin-top: 30px;
 }
+
 .student_Icon span {
 	display: block;
 	width: 50px;
@@ -532,11 +562,13 @@ a {
 	height: 90px;
 	margin-top: 30px;
 }
+
 .stu_minute_time {
 	font-size: 12px;
 	height: 25px;
 	border-bottom: 1px solid #cbcbcb;
 }
+
 .about-course-right {
 	float: left;
 	margin-left: 40px;

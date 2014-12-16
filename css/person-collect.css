@@ -1,0 +1,7 @@
+.video-lessons-bg{ width: 100%; background-color: #f2f2f2; display: inline-block;}
+.video-lessons-box{ width: 982px; margin: 20px auto 0; }
+.video-lessons-marginbot{ margin-bottom: 40px; margin-right: 41px;}
+.video-play-button{
+ position: absolute; 
+ left: 120px; top: 60px; 
+ width: 60px; height: 60px; z-index: 111; background-image: url("../images/video-play-botton.png");}

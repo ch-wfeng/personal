@@ -1,0 +1,185 @@
+.meterial-middle-center{
+	height: 1135px;
+	margin-bottom: 42px;
+}
+.meterial-middle-center-content{
+	width: 982px;
+	height: 1030px;
+	margin:0 auto;
+}
+.confidence-center{
+	width: 610px;
+	height: 780px;
+	margin:0 auto;
+}
+.confidence-top-bottom{
+	width: 610px;
+	font-size: 14px;
+	color: #ea6d65;
+	margin:0 auto;
+	padding-top: 28px;
+	margin-bottom: 28px;
+	text-align: center;
+}
+.confidence-realname{
+	width: 610px;
+	margin:0 auto;
+}
+.confidence-realname img{
+	margin-right: 21px;
+	margin-top: -5px;
+}
+.confidence-realname input{
+	width: 260px;
+	height: 40px;
+	border: 1px solid #e6e6e7;
+	font-size: 12px;
+	color: #808285;
+	padding-left: 21px;
+	line-height:40px;
+}
+.confidence-tips{
+	width: 610px;
+	font-size: 12px;
+	color: #808285;
+	margin-top: 8px;
+}
+.confidence-tips span{
+	color: #ea6d65;
+	line-height: 8px;
+}
+.confidence-title-img{
+	width: 610px;
+	font-size: 20px;
+	color: #ea6d65;
+	margin-bottom: 12px;
+}
+.confidence-title-img img{
+	margin-right: 10px;
+	margin-top: -14px;
+}
+.confidence-title{
+	width: 610px;
+	font-size: 12;
+	color: #808285;
+	margin-bottom: 30px;
+}
+.confidence-title img{
+	margin-right: 10px;
+	margin-top: -12px;
+}
+.confidence-title textarea{
+	width: 587px;
+	height: 68px;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #808285;
+	padding-left: 21px;
+	padding-top: 12px;
+	border: 1px solid #e6e6e7;
+	z-index: 2;
+}
+/*上传图片*/
+#localImag{
+	position: relative;
+	width: 250px;
+	height: 159px;
+	border: 1px solid #c9c9ca;
+	background-color: #e6e6e7;
+}	
+.uploadpreview{
+	position: absolute;
+	width: 250px;
+	height: 159px;
+	opacity: 0;
+}
+#uploadfile-add{
+	position: absolute;
+	width: 48px;
+	height: 64px;
+	margin-left: 106px;
+	margin-top: -112px;
+}
+#uploadfile-add span{
+	font-size: 12px;
+	color: #808285;
+	float: left;
+	text-align: center;
+}
+#uploadfile-add img{
+	float:left;
+	margin-left: 7px;
+	margin-bottom: 16px;
+}
+/*上传图片*/
+.confidence-title-content{
+	width: 610px;
+	height: 209px;
+}
+.confidence-title-content-left{
+	float: left;
+	width: 250px;
+	margin-right: 10px;
+	position: relative;
+}
+.confidence-title-content-right{
+	float: left;
+	width: 120px;
+}
+.confidence-teachaddress{
+	width: 587px;
+	height: 40px;
+	border: 1px solid #e6e6e7;
+	font-size: 12px;
+	color: #808285; 
+	line-height: 40px;
+	padding-left: 21px;
+	background-color: #fff;
+}
+.confidence-p-address{
+	font-size: 12px;
+	color: #808285; 
+	margin-top: 10px;
+}
+.confidence-tips-error{
+	width: 610px;
+	background-color: #fff;
+	color: #ea6d65;
+	border: 1px solid #ea6d65;
+	line-height: 38px;
+	text-align: center;
+	font-size: 12px;
+}
+.confidence-button-group{
+	width: 250px;
+	margin:30px auto 0px;
+}
+.confidence-btn1,.confidence-btn2{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+	float: left;
+}
+.confidence-btn1{
+	margin-right: 10px;
+	background-color: #c9c9ca;
+}
+.confidence-btn2{
+	background-color: #ea6d65;
+}
+.confidence-bottom{
+	width: 982px;
+	height: 60px;
+	background-color: #ea6d65;
+	margin: -98px auto 42px;
+	line-height: 60px;
+	text-align: center;
+}
+.confidence-bottom button{
+	background-color:#ea6d65;
+	font-size: 16px;
+	color: #fff;
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>认证←机构注册←机构中心</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<!--[if lt IE 9]>
+	    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/organization_login.css">
+</head>
+<body>
+	<div id="mybg"></div>
+	<!--头部导航栏开始-->
+	<div class="box-Head">
+	  <div class="box-Head-Left">
+	    <div class="logo"> <img src="images/img-logo.png" alt="img-logo"> </div>
+	    <div class="position">上海 <span class="position-icon"> <img src="images/icon-arrow-red.png"> </span> </div>
+	    <div class="navigation">
+	      <ul class="list-group">
+	        <li>平台优势</li>
+	        <li>课堂秀</li>
+	        <li>主题活动</li>
+	        <li>App下载</li>
+	      </ul>
+	    </div>
+	  </div>
+	  <div class="box-head-Middle">
+	    <input type="text" placeholder="你想学习什么课程？">
+	    <img src="images/icon-menu-search.png" alt="icon-menu-search">
+	  </div>
+	  <div class="box-Head-Right">
+	    <div class="help">
+	      <ul class="list-group">
+	        <li><img class="head-pic" src="images/Icons_student_girl_40px.png" alt="Icons_student_girl_40px" align=middle>joy<span><img src="images/icon-arrow-gray.png" alt="icon-arrow-gray"></span></li>
+	        <li><img class="head-appointment" src="images/index-head-appointment.png" alt="index-head-index-head-appointment" align=top>5</li>
+	        <li class="help-text">帮助 <img src="images/icon-arrow-gray.png" alt="icon-arrow-gray"> </li>
+	      </ul>
+	    </div>
+	    <div class="issue-Button"> 发布课程 </div>
+	  </div>
+	</div>
+	<div class="vip_nav">
+		<div class="vip_nav_center">
+			<div class="slide-menu"> 
+			  <span class="slide-menu-button">全部课程 <img src="images/icon-arrow-white.png" alt="icon-arrow-white"> </span> 
+			</div>
+			<ul>
+				<li><a href="#">个人中心</a></li>
+				<li><a href="#">我要教</a></li>
+				<li><a href="#">我要学</a></li>
+				<li><a href="#">我的钱包</a></li>
+				<li><a href="#">收藏夹</a></li>
+			</ul>
+
+		</div>
+	</div>
+	<div class="vip_title">
+		<div class="vip_tillec_center2">
+		机构注册</div>
+	</div>
+	<!--头部导航栏结束-->
+	<div class="vip_main organization_content"><!--vip_main begin-->
+		<div class="organization_step">
+			<div class="organization_login ">注册</div>
+			<div class="organization_sign ">签约</div>
+			<div class="organization_approve organization_step_blue">认证</div>
+		</div>
+		<div class="organization_step_title">机构用户认证</div>
+			<div class="organization_approve_genre">
+				<ul class="organization_genre">
+					<span>机构类型</span>
+					<li>工作室</li>
+					<li>学校</li>
+					<li>公司</li>
+				</ul>
+			</div>
+			<div class="organization_approve_content_studio"><!--工作室-->
+				<div class="organization_approver_name">
+					<div class="organization_approver_name_left"><input type="text"  maxlength="8" class="organization_approver_name_left_input" placeholder="机构简称" id="InputCourse"><p>*8个汉字以内</p></div>
+					<div class="organization_approver_name_right"><input type="text" maxlength="20"  class="organization_approver_name_right_input" placeholder="机构全称" id="InputCourse"><p class="organization_approver_name_2p">*20个汉字以内</p></div>			
+				</div>	
+				<div class="organization_contact_name">
+					<input type="text" class="organization_approver_name_abbreviation _input" placeholder="联系人真实姓名" id="InputCourse">
+				</div>
+				<div class="organization_approve_uploadingIcon">
+					<div class="organization_approve_uploadingIcon_left"><img src="./images/confidence-certify.png"></div>
+					<div class="organization_approve_uploadingIcon_right"><span>上传您与身份证</span></div>
+				</div>
+				<div style="height:20px;margin-top:10px;">
+					<ul class="organization_approve_name_type">
+						<li>证件类型</li>
+						<li><input type="radio" checked="checked" name="IDtype" id="identity"></li>
+						<li><label for="identity">身份证</label></li>
+						<li><input type="radio" name="IDtype" id="passport"></li>
+						<li><label for="passport">护照</label></li>
+					</ul>
+				</div>
+				<div class="organization_upload_pic">上传身份证区域</div>
+				<div class="organ0zation_hint">
+					<p>＊请朋友为您拍摄吧!</p>
+					<p class="organ0zation_hint_red">照片应为申请人本人手持身份证正面的半身照，背景为浅色墙面，需包含手肘部位，免冠，不带墨镜，并保持面部
+						清晰，且身份证上文字清晰可辨。
+					</p>
+				</div>
+				<div class="organization_Prompt">
+				机构简称不能为空！
+				</div>
+		</div><!--工作室 end-->
+		<div class="organization_approve_content_school"><!--学校-->
+				<div class="organization_approver_name">
+					<div class="organization_approver_name_left"><input type="text"  maxlength="8" class="organization_approver_name_left_input" placeholder="机构简称" id="InputCourse"><p>*8个汉字以内</p></div>
+					<div class="organization_approver_name_right"><input type="text" maxlength="20" class="organization_approver_name_right_input" placeholder="机构全称" id="InputCourse"><p class="organization_approver_name_2p">*请和证件名称保持一致</p></div>			
+				</div>	
+				<div class="organization_contact_name">
+					<input type="text" class="organization_approver_name_abbreviation _input" placeholder="联系人真实姓名" id="InputCourse">
+				</div>
+				<div class="organization_approve_uploadingIcon">
+					<div class="organization_approve_uploadingIcon_left"><img src="./images/confidence-certify.png"></div>
+					<div class="organization_approve_uploadingIcon_right"><span>上传证件</span></div>
+				</div>
+				<div style="height:20px;margin-top:10px;">
+					<ul class="organization_approve_name_type">
+						<form><li>证件类型</li>
+						<li><input type="radio" checked="checked" name="IDtype" id="teachingok"></li>
+						<li><label for="teachingok">办学许可证</label></li>
+						<li><input type="radio" name="IDtype" id="cod_certificate"></li>
+						<li><label for="cod_certificate">组织机构代码证</label></li></form>
+					</ul>
+				</div>
+				<div class="organization_upload_pic">上传身份证区域</div>
+				<div class="organ0zation_hint">
+					<p class="organ0zation_hint_red" style="padding-left:0px;"><i style="color:#808285;font-style:normal;">＊</i>请上传清晰彩色扫描件或者数码照。</p>
+				</div>
+				<div class="organization_Prompt">
+				机构简称不能为空！
+				</div>
+		</div><!--学校 end-->
+		<div class="organization_approve_content_company"><!--公司-->
+				<div class="organization_approver_name">
+					<div class="organization_approver_name_left"><input type="text"  maxlength="8" class="organization_approver_name_left_input" placeholder="机构简称" id="InputCourse"><p>*8个汉字以内</p></div>
+					<div class="organization_approver_name_right"><input type="text" maxlength="20"  class="organization_approver_name_right_input" placeholder="机构全称" id="InputCourse"><p class="organization_approver_name_2p">*请和证件名称保持一致</p></div>			
+				</div>	
+				<div class="organization_contact_name">
+					<input type="text" class="organization_approver_name_abbreviation _input" placeholder="联系人真实姓名" id="InputCourse">
+				</div>
+				<div class="organization_approve_uploadingIcon">
+					<div class="organization_approve_uploadingIcon_left"><img src="./images/confidence-certify.png"></div>
+					<div class="organization_approve_uploadingIcon_right"><span>上传营业执照</span></div>
+				</div>
+				<div class="organization_upload_pic">上传营业执照区域</div>
+				<div class="organ0zation_hint">
+					<p class="organ0zation_hint_red" style="padding-left:0px;"><i style="color:#808285;font-style:normal;">＊</i>请上传清晰彩色扫描件或者数码照。</p>
+				</div>
+				<div class="organization_Prompt">
+				机构简称不能为空！
+				</div>
+		</div><!--公司 end-->
+		<div class="organization_step_btn">
+			<button class="organization_btn_cancel">取消</button>
+			<button type="submit" class="organization_btn_Prompt">提交</button>
+		</div>
+	</div><!--vip_main end-->
+	<!--底部开始-->
+	<div class="footer">
+	  <div class="foot">
+	    <div class="footLeft">
+	      <ul class="foot_list">
+	        <li>
+	          <dl class="foot_insideList">
+	            <dt><a href="">帮助中心</a></dt>
+	            <dt><a href="">常见问题</a></dt>
+	            <dt><a href="">老师帮助</a></dt>
+	            <dt><a href="">学生帮助</a></dt>
+	            <dt><a href="">热线电话</a></dt>
+	          </dl>
+	        </li>
+	        <li>
+	          <dl class="foot_insideList">
+	            <dt><a href="">服务支持</a></dt>
+	            <dt><a href="">我有需求</a></dt>
+	            <dt><a href="">拍摄视频</a></dt>
+	            <dt><a href="">支付方式</a></dt>
+	          </dl>
+	        </li>
+	        <li>
+	          <dl class="foot_insideList">
+	            <dt><a href="">关于我们</a></dt>
+	            <dt><a href="">开发理念</a></dt>
+	            <dt><a href="">加入我们</a></dt>
+	            <dt><a href="">网站条款</a></dt>
+	          </dl>
+	        </li>
+	        <li style="margin-right:0px;">
+	          <dl class="foot_insideList">
+	            <dt><a href="">关注我们</a></dt>
+	            <dt><a href="">官方微信</a></dt>
+	            <dt><a href="">官方微博</a></dt>
+	          </dl>
+	        </li>
+	      </ul>
+	    </div>
+	    <div class="footRight">
+	      <p class="foot_phone">400-021-8866</p>
+	      <p class="foot_mail"><a href="mailto:making@xuexuekan.com">making@xuexuekan.com</a></p>
+	    </div>
+	  </div>
+	</div>
+	<!--底部结束--> 
+<script src="js/jquery.min.js"></script>
+<script src="js/slide-menu.js"></script>
+<script>
+	$(function(){
+		$(".organization_approve_content_school,.organization_approve_content_company").hide();
+		$(".organization_genre li:first").css({"background":"#3d73b1","width":"145","border":"none","color":"#fff"});
+		$(".organization_genre li").click(function(){	$(this).css({"background":"#3d73b1","width":"145","border":"none","color":"#fff"}).siblings("li").css({"background":"#fff","color":"#808285",});
+		});
+		$(".organization_genre li:first").click(function(){
+			$(".organization_approve_content_studio").show();
+			$(".organization_approve_content_school,.organization_approve_content_company").hide();
+		});
+		$(".organization_genre li:eq(1)").click(function(){
+			$(".organization_approve_content_school").show();
+			$(".organization_approve_content_studio,.organization_approve_content_company").hide();
+		})
+		$(".organization_genre li:last").click(function(){
+			$(".organization_approve_content_company").show();
+			$(".organization_approve_content_school,.organization_approve_content_studio").hide();
+		})
+	})
+</script>
+</body>
+</html>

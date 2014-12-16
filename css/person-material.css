@@ -1,0 +1,200 @@
+/*出生日期*/
+#dateSelector{
+	margin-left: 62px;
+    margin-top: -38px;
+    position: absolute;
+    width: 240px;
+    margin-right: 10px;
+}
+select{ 
+    font-size: 12px;
+    color: #808285;
+    position: relative;
+    left: -2px;
+    top: -2px;
+    width: 130px;
+    border:none;
+    height:40px;
+    width:90px;
+    padding-top: 12px;
+    padding-left: 16px;
+    border: 1px solid #e6e6e7;
+}
+#idYear{ width:90px;}
+#idMonth,#idDay{ width:70px; padding-left:10px;}
+.birth-year,.birth-month,.birth-day{
+    position:absolute; 
+    z-index:2;
+    margin-top: -40px;
+    font-size: 12px;
+    color: #808285;
+}
+.birth-year{
+	margin-left: 48px;
+}
+.birth-month{
+	margin-left: 120px;
+}
+.birth-day{
+	margin-left: 192px;
+}
+/*出生日期*/
+/*性别*/
+.material-title-sex{
+	position: absolute;
+	margin-left: 294px;
+	margin-top: -38px;
+}
+/*性别*/
+.meterial-middle-center-title{
+	color: #fff;
+}
+.material-name{
+	width: 610px;
+	height: 40px;
+	padding-top: 20px;
+	font-size: 12px;
+	color: #808285;
+	line-height: 40px;
+}
+.material-name input{
+	width: 207px;
+	height: 40px;
+	border: 1px solid #e6e6e7;
+	background-color: #fff;
+	margin-left: 21px;
+	padding-left: 21px;
+	font-size: 12px;
+}
+.material-name-input1{
+	width: 230px;
+	margin-right: 35px;
+}
+.material-tips{
+	width: 610px;
+	font-size: 12px;
+	color: #808285;
+	margin-top: 10px;
+	margin-left: 44px;
+	margin-bottom: 28px;
+}
+.material-title-content{
+	width: 610px;
+	height: 96px;
+	margin:0 auto;
+	position: relative;
+}
+.material-title-content-left{
+	width: 300px;
+	margin-right: 10px;
+	float: left;
+}
+.acquire-text{
+	width: 90px;
+	height: 31px;
+	position: absolute;
+	background-color: #ea6d65;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	line-height: 31px;
+	z-index: 999px;
+	margin-top: -37px;
+	margin-left: 205px;
+	_margin-left:-98px;
+	_margin-top:7px;
+	_z-index:999;
+}
+.acquire-text a{
+	color: #fff;
+}
+.material-phone,.material-test{
+	width: 279px;
+	height: 40px;
+	border: 1px solid #e6e6e7;
+	background-color: #fff;
+	padding-left: 21px;
+	font-size: 12px;
+	color: #808285;
+}
+.material-title-content-right{
+	width: 300px;
+	float: left;
+}
+.material-title{
+	width: 610px;
+	height: 40px;
+	font-size: 12px;
+	color: #808285;
+	line-height:40px;
+}
+.material-title input{
+	border: 1px solid #e6e6e7;
+	background-color: #fff;
+	margin-left: 21px;
+	height: 40px;
+}
+.material-title-email{
+	width: 230px;
+}
+.material-title-address{
+	width: 540px;
+}
+.material-title-input1,.material-title-input2{
+	border: 1px solid #e6e6e7;
+	background-color: #fff;
+	margin-left: 21px;
+	height: 40px;
+}
+.material-title-input1{
+	width: 230px;
+	margin-right: 10px;
+}
+.material-title-input2{
+	width: 109px;
+	padding-left: 21px;
+	font-size: 12px;
+	color: #808285;
+	padding-top: 10px;
+}
+.material-tips-error{
+	width: 610px;
+	height: 40px;
+	font-size: 12px;
+	color: #ea6d65;
+	border: 1px solid #ea6d65;
+	background-color: #fff;
+	line-height: 40px;
+	text-align: center;
+	margin-bottom: 28px;
+}
+.material-button-group{
+	width: 390px;
+	height: 40px;
+	margin:0 auto;
+}
+.material-btn1{
+	margin-right: 10px;
+	background-color: #c9c9ca;
+}
+.material-btn2{
+	margin-right: 10px;
+	background-color: #ea6d65;
+}
+.material-btn3{
+	background-color: #3399cc;
+}
+.material-btn1,.material-btn2,.material-btn3{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+}
+.meterial-middle-center{
+	height: 700px;
+}
+.meterial-middle-center-content{
+	height: 634px;
+}
