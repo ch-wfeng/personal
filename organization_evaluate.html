@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="css/organization_details.css">
 </head>
 <body style="background:#f9f9f9;">
+	<div id="mybg"></div>
 <div style="display: none;" id="toolsVideoShield" class="video-backdrop">
   <div id="toolsVideo" class="video-popup-container"></div>
 </div>
@@ -98,7 +99,7 @@
 			</div>
 		</div>
 		<div class="organization_details_slide-menu"><span>游泳</span> <img src="images/icon-arrow-white.png" alt="icon-arrow-white"> </div>
-		<div class="organization_details_slide-course-pic"> <span>￥200元</span> /课时 </div>
+		<div class="organization_details_slide-course-pic">每人每课时收费<p><b>￥</b><span>200</span><i>元</i></p></div>
   </div>
 </div>
 <!--中间轮播图片结束--> 
@@ -107,9 +108,9 @@
   <div class="details-left">
 	  <div class="details_titile">
 	  	<ul>
-			<li class="details_titileLiWhite">课程详情</li>  
+			<li>课程详情</li>  
 			<li>老师详情</li>  
-			<li>评价</li>  
+			<li id="details_titileLiWhite">评价</li>  
 		</ul>
 	  </div>
     <div class="evaluate_minute2">
@@ -697,20 +698,22 @@
       </div>
     </div>
    </div>
-  <div class="details-right">
+    <div class="details-right">
 	  <div class="organization_reserveTop">
 		<p class="reserveTop_p">每课时时长：<span class="reserveSpan">60</span>分钟</p>
-		<p class="reserveTop_p">建议课时数：<span class="reserveSpan">10</span>课时</p>
-		<div class="box-Coursedetail">
+		<p class="reserveTop_p2">建议课时数：<span class="reserveSpan">10</span>课时</p>
+		<div class="details-right-Coursedetail">
 		  <div class="course-details">
-			<div id="requer2" class="requer" style="display:none;">
+			<div id="requer2" class="details-right_requer" style="display:none;">
 			  <div class="requer-title">体贴的零风险保障</div>
 			  <div class="requer-content">学员若在首堂课后发现自己无法适应授课内容及形式，可再规定的时间内提出退款要求，经过我们审核后，将按个人意愿推荐其他老师或无条件退款。</div>
 			  <div class="requer-ques-left">什么是审核条款？</div>
 			  <div class="requer-ques-right">还有其他常见问题</div>
 			</div>
-			<div class="course-details-policy">查看优惠政策</div>
-			<div class="course-details-protect"> 零风险保障 <span id="ques2"> <img src="images/icon-question.png" alt="icon-question"> </span> </div>
+			<div class="details-right-policy">查看优惠政策</div>
+			<div class="details-right-protect">
+				<span class="details_protect_left">零风险保障</span>
+				<span id="ques2" class="details_protect_right"> </span> </div>
 		  </div>
 		</div>
 	</div>
@@ -720,7 +723,7 @@
 		<li><img src="images/icon_weibo.png"><span class="shareSpan">分享微博</span></li>
 		<li><img src="images/icon_wechat.png"><span class="shareSpan">分享微信</span></li>
 	 </ul>
-	  	 <div style="width:235px; margin:0 auto;"><img src="./images/icon_time.png" class="data-oranization_timeImg"><span class="organization_timeSpan">每周业余授课/上课大致时段</span></div>
+	  	 <div  class="organization_timeNav"><img src="./images/icon_time.png" class="data-oranization_timeImg"><span class="organization_timeSpan">每周业余授课/上课大致时段</span></div>
 	 <div class="organization_time">
 		<table class="organization_timeTable">
 			  <tr>
@@ -766,14 +769,43 @@
 			</table>
 		</div>
 	  <div class="organization_scope">
-	  		<div style="display:inline-block; width:235px;"><img src="./images/icon_gps.png" class="data-oranization_timeImg"><span class="organization_timeSpan">授课范围</span></div>
+	  		<div style="display:inline-block; width:235px;"><img src="./images/icon_gps.png" class="data-oranization_timeImg">
+				<span class="organization_timeSpan_teacher">老师上门</span>
+				<span class="organization_timeSpan">授课范围</span></div>
 		  	<p>上海市、静安区、2号地铁沿线、</p>
 		  	<p>7号地铁沿线、</p>
-		  <div class="organization_map">MAP地图</div>
+		    <div style="display:inline-block; width:235px;"><img src="./images/icon_gps.png" class="data-oranization_timeImg">
+				<span class="organization_timeSpan_teacher">一对三</span>
+				<span class="organization_timeSpan">授课地址</span></div>
+		  	<p>上海市、静安区、胶州路、</p>
+		  	<p>7号地铁沿线、</p>
 	  </div>
+	  <div class="organization_map">MAP地图</div>
+	  <button class="organization_callTeacherBtn">联系老师</button>
 	</div>
   </div>
 <!--课程详情结束--> 
+<!--弹出框区域--> 
+	<div class="organization_lightBox">
+		<div class="organization_loghtBoxTitle">给<span class="organizationlightBox_Icon"><img src="./images/Icons_student_boy_200px.png" width="60px" height="60px" style="margin-bottom:-20px"></span>老师：Clark<i>发送消息：</i>			
+		</div>
+		<div class="organization_lightbox_content" >关于幼儿游泳入门课程</div>	
+		<form>				
+			<textarea  maxlength="500" class="organization_lightboxTips">写点评价吧，对其他同学会很有用哦！</textarea>
+		</form>
+	<div class="lightbox3_btn">
+      <button type="button" class="lightbox3_btn_cancel">取消</button>
+      <button type="button" class="study_evaluate">发送</button>
+    </div>
+	</div>
+	<div class="organization_lightBox2">
+		<p>发送消息</p>
+		<div class="lightbox4_btn">
+		  <button type="button" class="lightbox3_btn_cancel">取消</button>
+		  <button type="button" class="organization_sure">发送</button>
+		</div>
+	</div>
+	<div class="organization_lightBox3">消息已经发送</div>
 <!--底部开始-->
 <div class="footer">
   <div class="foot">
@@ -823,6 +855,7 @@
 <script src="js/jquery.min.js"></script> 
 <script src="js/video.js"></script> 
 <script src="js/jquery.SuperSlide2.js"></script> 
+	<script src="js/slide-menu.js"></script>
 <script type="text/javascript">
 		$(document).ready(function(){
 			$("#ques1").hover(function() {
@@ -845,6 +878,24 @@
 		autoPlay: true,
 		vis: 2
 	});
+	//弹出层
+		$(function(){
+			//退款
+			$(".organization_callTeacherBtn").click(function(){
+			$(".organization_lightBox").slideDown();
+			var h=$(document).height();
+			$("#mybg").css("height",h)
+			$("#mybg").css("width","100%")
+			$("#mybg").show();
+			});
+			     $("#mybg,.lightbox3_btn_cancel").click(function(){
+					$(".organization_lightBox,#mybg,.organization_lightBox3").hide();
+				 });
+			$(".study_evaluate").click(function(){
+				$(".organization_lightBox").hide();
+				$(".organization_lightBox3").slideDown();
+			})
+		});	
 	
 	</script>
 </body>

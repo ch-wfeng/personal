@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>信任与验证</title>
@@ -14,7 +14,13 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/confidence.css">
-</head>
+	<script src="js/uploadPreview.min.js"></script>
+	<script>
+	   window.onload = function () { 
+	        new uploadPreview({ UpBtn: "up_img", DivShow: "imgdiv", ImgShow: "imgShow" });
+	    }
+	</script>
+	</head>
 <body>
 	<!--王雯洁开始--> 
 	<!--头部导航栏开始-->
@@ -78,10 +84,10 @@
 			<div class="meterial-middle-center-content">
 				<div class="confidence-center">
 						<div class="confidence-top-bottom">请如实填写以下信息，以便您更快的通过认证。</div>
-						<div class="confidence-realname"><img src="images/confidence-headpic.png" alt="confidence-headpic" align=middle><input type="text" name="realname" value="真实姓名"></div>
-						<div class="confidence-tips" style="margin-bottom:38px;">*请输入真实姓名（与身份证保持一致）</div>
+						<div class="confidence-realname"><img src="images/confidence-headpic.png" alt="confidence-headpic" align=middle><input type="text" name="realname" placeholder="真实姓名"></div>
+						<div class="confidence-tips" style="margin-bottom:36px;">*请输入真实姓名（与身份证保持一致）</div>
 						<div class="confidence-title-img"><img src="images/confidence-phone.png" alt="confidence-phone" align=middle>138****6685</div>
-						<div class="confidence-tips" style="margin-bottom:38px;">*手机号码默认您注册时使用，<span>我们将通过这个手机号码联系您</span></div>
+						<div class="confidence-tips" style="margin-bottom:30px;">*手机号码默认您注册时使用，<span>我们将通过这个手机号码联系您</span></div>
 						<div class="confidence-title-content">
 							<div class="confidence-title-content-left">
 								<div class="confidence-title"><img src="images/confidence-certify.png" alt="confidence-certify" align=middle>上传您与身份证</div>
@@ -96,15 +102,8 @@
 								<img src="images/confidence-example.png" alt="confidence-example">
 							</div>
 						</div>	
-						<div class="confidence-tips">*请朋友为您拍照吧！</div>
-						<div class="confidence-tips" style="margin-bottom:38px;"><span>照片应为申请人本人手持身份证正面的半身照，背景为浅色墙面，需包含手肘部位，免冠，不带墨镜，并保持面部清晰，且身份证上文字清晰可辨。</span></div>
-						<div class="confidence-title">
-							<img src="images/confidence-introuce.png" alt="confidence-introuce" align=middle>输入自我介绍
-							<textarea>自我介绍一下吧！让我们和你未来的学生们更了解你</textarea>
-						</div>
-						<input type="text" class="confidence-teachaddress" placeholder="教学地点">
-						<p class="confidence-p-address">*请详细填写</p>
-						<div class="confidence-top-bottom">提交后，我们会在三个工作日内与您联系，确认您的认证信息，谢谢！</div>
+						<div class="confidence-tips">*<span>照片应为申请人本人手持身份证正面的半身照，免冠，不带墨镜，并保持面部清晰，且身份证上文字清晰可辨。</span></div>
+						<div class="confidence-top-bottom" style="margin-top:28px;">提交后，我们会在三个工作日内与您联系，确认您的认证信息，谢谢！</div>
 						<div class="confidence-tips">
 							<button class="confidence-tips-error" type="button">登录密码不能少于6位，请重新输入！验证码输入错误，请重新输入！
 							</button>

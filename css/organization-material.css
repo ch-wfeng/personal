@@ -1,61 +1,74 @@
-.organization-all-name{
+.meterial-middle-center{
+	height: 695px;
+}
+.organization-all-name {
 	margin-bottom: 35px;
 }
-.organization-all-name p{
+.organization-all-name p {
 	font-size: 12px;
 	color: #808285;
 }
-.organization-all-name span{
+.organization-all-name span {
 	font-size: 14px;
 	color: #58595b;
 	margin-left: 12px;
 }
-.material-title-content-left,.material-title-content-right{
+.material-title-content-left, .material-title-content-right {
 	margin-bottom: 10px;
 }
-.organization-material-name,.organization-material-phone{
+.organization-material-name, .organization-material-phone {
 	height: 40px;
 	padding-left: 21px;
 	font-size: 14px;
 	color: #58595b;
 	border: 1px solid #e6e6e7;
 }
-.organization-material-name{
+.organization-material-name {
 	width: 198px;
 }
-.organization-material-phone{
+.organization-material-phone {
 	width: 178px;
 	margin-right: 30px;
 }
-.material-title-content-left p,.material-title-content-right p{
+.material-title-content-left p, .material-title-content-right p {
 	font-size: 12px;
 	color: #808285;
 	margin-right: 8px;
 	line-height: 40px;
 	float: left;
 }
-.material-title-email{
+.material-title-email {
 	width: 198px;
 	margin-left: 10px;
 	padding-left: 21px;
 	font-size: 14px;
 	color: #58595b;
 }
-.material-title{
+.material-title {
 	margin-bottom: 40px;
 	margin-top: 0px;
 }
-.material-title-address{
+.material-title-address {
 	width: 502px;
 	height: 40px;
 	padding-left: 21px;
 	font-size: 14px;
 	color: #58595b;
 }
-.material-tips-error{
+.material-tips-error {
 	margin-top: -10px;
 	margin-bottom: 32px;
 }
-.material-button-group{
+.material-button-group {
 	width: 264px;
 }
+
+<<<<<<< HEAD
+.meterial-middle-center-content {
+    height: 634px;
+}
+=======
+.organization_lightBox {
+	width: 982px; margin: 0 auto; 
+}
+>>>>>>> 298d737c21e26c139dfcf1d672bdd16cb0f5f6a5

@@ -1,25 +1,25 @@
 .meterial-middle-center{
-	height: 1135px;
-	margin-bottom: 42px;
+	height: 820px;
+	margin:0 auto;
 }
 .meterial-middle-center-content{
 	width: 982px;
-	height: 1030px;
+	height: 760px;
 	margin:0 auto;
 }
 .confidence-center{
 	width: 610px;
-	height: 780px;
+	
 	margin:0 auto;
 }
 .confidence-top-bottom{
 	width: 610px;
 	font-size: 14px;
 	color: #ea6d65;
-	margin:0 auto;
-	padding-top: 28px;
-	margin-bottom: 28px;
 	text-align: center;
+	margin:0 auto;
+	margin-bottom: 28px;
+	padding-top: 28px;
 }
 .confidence-realname{
 	width: 610px;
@@ -42,7 +42,7 @@
 	width: 610px;
 	font-size: 12px;
 	color: #808285;
-	margin-top: 8px;
+	margin-top: 9px;
 }
 .confidence-tips span{
 	color: #ea6d65;
@@ -52,7 +52,7 @@
 	width: 610px;
 	font-size: 20px;
 	color: #ea6d65;
-	margin-bottom: 12px;
+	margin-bottom: 15px;
 }
 .confidence-title-img img{
 	margin-right: 10px;
@@ -152,7 +152,8 @@
 }
 .confidence-button-group{
 	width: 250px;
-	margin:30px auto 0px;
+	margin:0 auto;
+	margin-top: 30px;
 }
 .confidence-btn1,.confidence-btn2{
 	width: 120px;
@@ -174,7 +175,7 @@
 	width: 982px;
 	height: 60px;
 	background-color: #ea6d65;
-	margin: -98px auto 42px;
+	margin: 20px auto 40px;
 	line-height: 60px;
 	text-align: center;
 }

@@ -1,0 +1,19 @@
+@charset "utf-8";
+body { color:#666; background:#EDEDED;}
+ul,li{ list-style:none;}
+a{ color:#666; text-decoration:none;}
+a:hover{ text-decoration:none; color:#000;}
+img{border:0 none;}
+.boxout{ width: 100%; color: #f1f1f1; margin-bottom: 40px;}
+.boxin-bg{ width: 100%; background-color: #fff; height: 80px; padding: 40px 0; color: #666;}
+.open-class-title{ float: left; border-right: 1px solid #cbcbcb; padding-left:6px; width: 293px; height: 80px; font-size: 20px; }
+.open-class-cont{ float:left; width: 595px; margin-left: 40px; font-size: 16px; }
+.open-class-box{ width: 982px; margin: 0 auto;}
+#waterfall{ text-align:center; width:982px; margin:0 auto;}
+#waterfall h3{ font-size: 16px; margin-top: 26px; color: #595757}
+#waterfall p{ font-size: 14px; color:#cbcbcb; margin-top: 6px; margin-bottom: 23px;}
+#waterfall img{ width:300px;}
+#waterfall .cell{ width:300px;
+	border:1px solid #E3E3E3; background:#fff; margin-top:40px;
+	}
+

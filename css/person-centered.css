@@ -1,227 +1,228 @@
-.personal-middle{
+.personal-middle {
 	width: 100%;
-	margin:0 auto;
+	margin: 0 auto;
 }
-.personal-middle-center{
+.personal-middle-center {
 	width: 982px;
-	_width:984px;
-	height: 630px;
-	margin:0 auto;
+	height: 652px;
+	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
-.personal-middle-left{
+.personal-middle-left {
 	float: left;
 	width: 270px;
 	height: 610px;
 	margin-right: 30px;
 }
-.person-head-pic{
+.person-head-pic {
 	width: 270px;
 	margin-bottom: 10px;
 }
-.person-head-pic img{
+.person-head-pic img {
 	margin-left: 35px;
 }
-.person-p-tip{
+.person-p-tip {
 	width: 270px;
 	margin-bottom: 14px;
-	text-align: center;	
+	text-align: center;
 }
-.person-p-tip p{
+.person-p-tip p {
 	font-size: 12px;
 	color: #bcbec0;
 }
-.person-p-name{
+.person-p-name {
 	width: 270px;
 	text-align: center;
 	margin-bottom: 24px;
 }
-.person-p-name p{
+.person-p-name p {
 	font-size: 30px;
 	color: #666666;
 }
-.person-production,.person-course{
+.person-production,.person-course,.person-want{
 	width: 270px;
 	height: 40px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-size: 16px;
 	text-align: center;
 	line-height: 40px;
 }
-.person-production a,.person-course a{
+.person-production a, .person-course a ,.person-want a{
 	color: #fff;
 }
-.person-production{
+.person-production {
 	background-color: #898989;
 }
-.person-course{
+.person-course {
 	background-color: #ea6d65;
 }
-.person-test{
-	width: 270px;
-	height: 200px;
-	border: 1px solid #e6e6e7;
+.person-want{
+	background-color: #a4a4a4;
 }
-.person-test-title{
+.person-test {
+	width: 270px;
+	height: 203px;
+	border: 1px solid #e6e6e7;
+	margin-top: 10px;
+}
+.person-test-title {
 	width: 270px;
 	height: 41px;
 	border-bottom: 1px solid #e6e6e7;
 	background-color: #f2f2f2;
 }
-.person-test-title p{
+.person-test-title p {
 	font-size: 14px;
 	color: #666666;
 	margin-left: 17px;
 	line-height: 41px;
 }
-.person-test-content{
+.person-test-content {
 	width: 251px;
-	margin-left: 17px;
+	margin-left: 16px;
 }
-.person-test-content-line-top{
-	margin-top: 22px;
+.person-test-content-line-top {
+	margin-top: 21px;
 	margin-bottom: 16px;
 }
-.person-test-content-line{
+.person-test-content-line {
 	margin-bottom: 12px;
 }
-.person-test-content-line-top img,.person-test-content-line img{
+.person-test-content-line-top img, .person-test-content-line img {
 	margin-top: 2px;
 	margin-right: 38px;
 	float: left;
 }
-.person-test-project,.person-test-certain{
+.person-test-project, .person-test-certain {
 	font-size: 12px;
 	color: #58595b;
 }
-.person-test-project{
-	margin-bottom: 11px;
+.person-test-project {
+	margin-bottom: 10px;
 }
-.person-more{
+.person-more {
 	font-size: 14px;
 	margin-bottom: 16px;
 	margin-top: -12px;
 }
-.person-more a{
+.person-more a {
+	font-size: 14px;
 	color: #ea6d65;
 }
-.personal-middle-right{
+.personal-middle-right {
 	float: left;
 	width: 672px;
 	height: 610px;
 }
-.person-welcome{
-	height: 282px;
+.person-welcome {
+	height: 286px;
 	width: 652px;
 	border: 1px solid #e6e6e7;
 	margin-bottom: 20px;
 }
-.person-welcome-title{
+.person-welcome-title {
 	width: 652px;
 	height: 41px;
 	border-bottom: 1px solid #e6e6e7;
 	background-color: #f2f2f2;
 }
-.person-welcome-title p{
+.person-welcome-title p {
 	font-size: 14px;
 	color: #666666;
 	font-weight: bold;
 	line-height: 41px;
 	margin-left: 18px;
 }
-.person-welcome-content{
-	margin-top: 20px;
+.person-welcome-content {
+	margin-top: 21px;
 	margin-left: 18px;
 }
-.person-welcom-content-font1{
+.person-welcom-content-font1 {
 	font-size: 13px;
 	color: #58595b;
 }
-.person-welcom-content-font2{
+.person-welcom-content-font2 {
 	font-size: 13px;
 	color: #58595b;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
-.person-welcom-content-font3{
-	font-size: 14px;
+.person-welcom-content-font3 {
+	font-size: 13px;
 	color: #3399cc;
 	font-weight: bold;
 }
-.person-welcome-content ul{
-	padding-bottom: 26px;
-}
-.person-welcome-content li{
+.person-welcome-content li {
 	margin-bottom: 14px;
 }
-.person-news{
+.person-news {
 	width: 652px;
 	height: 120px;
 	border: 1px solid #e6e6e7;
 	margin-bottom: 20px;
 }
-.person-news-title{
+.person-news-title {
 	width: 652px;
 	height: 41px;
 	border-bottom: 1px solid #e6e6e7;
 	background-color: #f2f2f2;
 }
-.person-news-title p{
+.person-news-title p {
 	font-size: 14px;
 	color: #666666;
 	font-weight: bold;
 	line-height: 41px;
 	margin-left: 18px;
 }
-.person-news-content{
+.person-news-content {
 	width: 652px;
 	height: 79px;
 }
-.person-news-content p{
+.person-news-content p {
 	width: 634px;
 	height: 38px;
 	font-size: 13px;
 	line-height: 38px;
 	margin-left: 18px;
 }
-.person-news-content p a{
+.person-news-content p a {
 	color: #58595b;
 }
-.person-news-content-p{
+.person-news-content-p {
 	border-bottom: 1px solid #e6e6e7;
 	position: relative;
 	left: -18px;
 }
-.person-news-content span{
+.person-news-content span {
 	position: absolute;
 	margin-left: 18px;
 }
-.person-share-xuebi{
+.person-share-xuebi {
 	width: 652px;
-	height: 80px;
+	height: 100px;
 	border: 1px solid #e6e6e7;
 }
-.person-share-xuebi-left{
-	margin-top: 20px;
+.person-share-xuebi-left {
+	margin-top: 30px;
 	margin-bottom: 20px;
 	margin-left: 18px;
 	float: left;
 }
-.person-share-xuebi-left p{
+.person-share-xuebi-left p {
 	font-size: 12px;
 	color: #58595b;
 }
-.person-bold{
+.person-bold {
 	margin-bottom: 12px;
 }
-.person-share-xuebi-left span{
+.person-share-xuebi-left span {
 	font-size: 14px;
 }
-.person-share-xuebi-right{
+.person-share-xuebi-right {
 	float: right;
 	margin-right: 18px;
-	margin-top: 19px;
+	margin-top: 30px;
 	width: 150px;
 	height: 40px;
 	background-color: #EA6D65;
@@ -229,6 +230,6 @@
 	line-height: 40px;
 	text-align: center;
 }
-.person-share-xuebi-right a{
+.person-share-xuebi-right a {
 	color: #fff;
 }

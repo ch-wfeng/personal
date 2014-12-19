@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="css/organization_details.css">
 </head>
 <body style="background:#f9f9f9;">
+	<div id="mybg"></div>
 <div style="display: none;" id="toolsVideoShield" class="video-backdrop">
   <div id="toolsVideo" class="video-popup-container"></div>
 </div>
@@ -40,8 +41,7 @@
   </div>
   <div class="box-head-Middle">
     <input type="text" placeholder="你想学习什么课程？">
-    <img src="images/icon-menu-search.png" alt="icon-menu-search">
-  </div>
+    <img src="images/icon-menu-search.png" alt="icon-menu-search"> </div>
   <div class="box-Head-Right">
     <div class="help">
       <ul class="list-group">
@@ -56,50 +56,44 @@
 <!--头部导航栏结束--> 
 <!--中间轮播图片开始-->
 <div class="organization_details_bg">
-	 <div class="organization_details_bg_main">
-		<div class="organization_details_info">
-			<div class="organization_details_info_left">
-				<img src="./images/organization_details_info.jpg">
-				<div class="organization_status">
-					<span class="organization_status_span1">172</span>
-					<span class="organization_status_span2">5</span>
-				</div>
-				<div class="organization_appraise">
-					<ul>
-						<li><img src="./images/icon_star_red.png"></li>	
-						<li><img src="./images/icon_star_red.png"></li>	
-						<li><img src="./images/icon_star_red.png"></li>	
-						<li><img src="./images/icon_star_red.png"></li>	
-						<li><img src="./images/icon_star_red.png"></li>	
-						<li><i>15条评价</i></li>	
-					</ul>
-				</div>
-			</div>
-			<div class="organization_details_info_center">
-				<h1>幼儿游戏入门</h1>
-				<p>一句话介绍课程的字段一句话介绍课程的字段一句话介绍课程的字段一句话介绍课程的字段</p>
-			</div>
-			<div class="organization_details_info_right">
-				<div class="organization_guild">
-					<div class="organization_guild_top">
-						<div class="organization_Icon">
-							<img src="./images/Icons_student_boy_200px.png" width="80px" height="80px">
-							<div class="organization_gender">男</div>
-						</div>
-						<div class="organization_intro">
-							<h3>老师：Clark</h3>
-							<p><img src="./images/icon-position_red.png" class="data-Icon">上海.静安区</p>
-							<p><img src="./images/icon-certify-red.png" class="data-Icon">实名认证<img src="./images/icon-certify-red.png" class="data-Icon2">教师认证</p>
-						</div>
-					</div>
-					<div class="organization_guildMiddle">一句话介绍老师替代文字</div>
-					<div class="organization_guildBottom">年龄：32岁<span style="margin-left:20px;">教龄：8年</span></div>					
-				</div>
-			</div>
-		</div>
-		<div class="organization_details_slide-menu"><span>游泳</span> <img src="images/icon-arrow-white.png" alt="icon-arrow-white"> </div>
-		<div class="organization_details_slide-course-pic"> <span>￥200元</span> /课时 </div>
-  </div>
+  <div class="organization_details_bg_main">
+    <div class="organization_details_info">
+      <div class="organization_details_info_left"> <img src="./images/organization_details_info.jpg">
+        <div class="organization_status"> <span class="organization_status_span1">172</span> <span class="organization_status_span2">5</span> </div>
+        <div class="organization_appraise">
+          <ul>
+            <li><img src="./images/icon_star_red.png"></li>
+            <li><img src="./images/icon_star_red.png"></li>
+            <li><img src="./images/icon_star_red.png"></li>
+            <li><img src="./images/icon_star_red.png"></li>
+            <li><img src="./images/icon_star_red.png"></li>
+            <li><i>15条评价</i></li>
+          </ul>
+        </div>
+      </div>
+      <div class="organization_details_info_center">
+        <h1>幼儿游戏入门</h1>
+        <p>一句话介绍课程的字段一句话介绍课程的字段一句话介绍课程的字段一句话介绍课程的字段</p>
+      </div>
+      <div class="organization_details_info_right">
+        <div class="organization_guild">
+          <div class="organization_guild_top">
+            <div class="organization_Icon"> <img src="./images/Icons_student_boy_200px.png" width="80px" height="80px">
+              <div class="organization_gender">男</div>
+            </div>
+            <div class="organization_intro">
+              <h3>老师：Clark</h3>
+              <p><img src="./images/icon-position_red.png" class="data-Icon">上海.静安区</p>
+              <p><img src="./images/icon-certify-red.png" class="data-Icon">实名认证<img src="./images/icon-certify-red.png" class="data-Icon2">教师认证</p>
+            </div>
+          </div>
+          <div class="organization_guildMiddle">一句话介绍老师替代文字</div>
+          <div class="organization_guildBottom">年龄：32岁<span style="margin-left:20px;">教龄：8年</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="organization_details_slide-menu"><span>游泳</span> <img src="images/icon-arrow-white.png" alt="icon-arrow-white"> </div>
+    <div class="organization_details_slide-course-pic"> <span>￥200元</span> /课时 </div>
 </div>
 <!--中间轮播图片结束--> 
 <!--课程详情开始-->
@@ -107,7 +101,7 @@
   <div class="details-left">
 	  <div class="details_titile">
 	  	<ul>
-			<li class="details_titileLiWhite">课程详情</li>  
+			<li id="details_titileLiWhite">课程详情</li>  
 			<li>老师详情</li>  
 			<li>评价</li>  
 		</ul>
@@ -116,40 +110,45 @@
 	  	<p>1、采用一对三的教学方式，我将有足够的精力关注每一位学生</p>
 		<p>2、上课时，我会采用理论与实践结合的方式，一边讲解，一边让学生动手作画</p>
 		<p>3、学生作画时，我会在旁边仔细观察，纠正任何的细节，从握笔的姿势，到构图的布局、水彩的涂抹方式，力求让学生在最短的时间内入门（照片）</p>
+		<p>3、学生作画时，我会在旁边仔细观察，纠正任何的细节，从握笔的姿势，到构图的布局、水彩的涂抹方式，力求让学生在最短的时间内入门（照片）</p>
+		<p>3、学生作画时，我会在旁边仔细观察，纠正任何的细节，从握笔的姿势，到构图的布局、水彩的涂抹方式，力求让学生在最短的时间内入门（照片）</p>
+		<p>3、学生作画时，我会在旁边仔细观察，纠正任何的细节，从握笔的姿势，到构图的布局、水彩的涂抹方式，力求让学生在最短的时间内入门（照片）</p>
 		<p class="details_more">更多</p>
 	  </div>
-	  <div class="details_boxP"><span class="details_box_P1">所属学科:</span><span class="details_box_P2">艺术.体育</span></div>
-	  <div class="details_boxP"><span class="details_box_P1">适合人群:</span><span class="details_box_P2">幼儿.小学生</span></div>
-	  <div class="details_boxP2"><span class="details_box_P1">授课方式:</span>啊实打实的啊实打实的啊实打实的啊实打实啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的啊实打实的的
+	  <div class="details_boxP">
+		  <p class="details_box_P1">所属学科:<span class="details_box_P2">艺术.体育</span></p>
+	  	  <p class="details_box_P1">课程级别:<span class="details_box_P2">初级</span></p>
+	  	  <p class="details_box_P1">适合人群:<span class="details_box_P2">幼儿.小学生</span></p>
+		  <p class="details_box_P1">授课方式:<span class="details_box_P2">老师上门、一对三</span></p>	  
 	  </div>
-	  <div class="details_boxP3"><span class="details_box_P1">课程照片</span></div>
-	  <div class="friend">
+	  	<div class="friend">
+		  <p class="friend_title"><span class="details_box_P1">老师资历描述</span></p>
 			<div class="mr_frbox">
 				<img class="mr_frBtnL prev" src="./images/icon_slide_left.png" />
 				<div class="mr_frUl">
 					<ul id="mr_fu">
 						<li><a href="#">
-							<img src="./images/img-video-pic1.jpg" />1
+							<img src="./images/img-video-pic1.jpg"/>
 						</a>
 						</li>
 						<li><a href="#">
-							<img src="./images/img-video-pic2.jpg" />2
+							<img src="./images/img-video-pic2.jpg" height="160" width="250" />
 						</a>
 						</li>
 						<li><a href="#">
-							<img src="./images/trust3.png" />3
+							<img src="./images/trust3.png" height="160" width="250" />
 						</a>
 						</li>
 						 <li><a href="#">
-							<img src="./images/img-video-pic1.jpg" />1
+							<img src="./images/img-video-pic1.jpg" />
 						</a>
 						</li>
 						<li><a href="#">
-							<img src="./images/img-video-pic2.jpg" />2
+							<img src="./images/img-video-pic2.jpg" />
 						</a>
 						</li>
 						<li><a href="#">
-							<img src="./images/trust3.png" />3
+							<img src="./images/2323.jpg" />
 						</a>
 						</li>                
 					</ul>
@@ -157,63 +156,101 @@
 				<img class="mr_frBtnR next" src="./images/icon_slide_right.png" />
 			</div>
 		</div>
-	   <div class="details_boxP4"><span class="details_box_P1">课程照片</span></div>
-		  <div class="friend">
-				<div class="mr_frbox">
-					<img class="mr_frBtnL prev" src="./images/icon_slide_left.png" />
-					<div class="mr_frUl">
-						<ul id="mr_fu">
-							<li><a href="#">
-								<img src="./images/img-video-pic1.jpg" />1
-							</a>
-							</li>
-							<li><a href="#">
-								<img src="./images/img-video-pic2.jpg" />2
-							</a>
-							</li>
-							<li><a href="#">
-								<img src="./images/trust3.png" />3
-							</a>
-							</li>
-							 <li><a href="#">
-								<img src="./images/img-video-pic1.jpg" />1
-							</a>
-							</li>
-							<li><a href="#">
-								<img src="./images/img-video-pic2.jpg" />2
-							</a>
-							</li>
-							<li><a href="#">
-								<img src="./images/trust3.png" />3
-							</a>
-							</li>                
-						</ul>
-					</div>
-					<img class="mr_frBtnR next" src="./images/icon_slide_right.png" />
+	  	<div class="friend">
+		  <p class="friend_title"><span class="details_box_P1">课程照片</span></p>
+			<div class="mr_frbox">
+				<img class="mr_frBtnL prev" src="./images/icon_slide_left.png" />
+				<div class="mr_frUl">
+					<ul id="mr_fu">
+						<li><a href="#">
+							<img src="./images/img-video-pic1.jpg"/>
+						</a>
+						</li>
+						<li><a href="#">
+							<img src="./images/img-video-pic2.jpg" height="160" width="250" />
+						</a>
+						</li>
+						<li><a href="#">
+							<img src="./images/trust3.png" height="160" width="250" />
+						</a>
+						</li>
+						 <li><a href="#">
+							<img src="./images/img-video-pic1.jpg" />
+						</a>
+						</li>
+						<li><a href="#">
+							<img src="./images/img-video-pic2.jpg" />
+						</a>
+						</li>
+						<li><a href="#">
+							<img src="./images/2323.jpg" />
+						</a>
+						</li>                
+					</ul>
 				</div>
+				<img class="mr_frBtnR next" src="./images/icon_slide_right.png" />
 			</div>
-	  <div class="details_boxP5"><span class="details_box_P1">我教授的内容</span>替代站位文替代替代站位文替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字字替代站位文替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字字替代站位文替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字字替代站位文替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字字替代站位文替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字字替代站位文替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字字站位文字替代站位文字替代站位文字替代站位文字替代站位文字字</div>
-	  <div class="details_boxP6"><span class="details_box_P1">我教授的内容</span>我可以…替代站位文字…（该课程完成后，你可以：字段）</div>
-	  <div class="details_boxP7"><span class="details_box_P1">课程需要的工具</span>我可以…替代站位文字…（该课程完成后，你可以：字段）</div>
-	  <div class="details_boxP8"><span class="details_box_P1">课程老师的贴心话语</span>我可以…替代站位文字…（该课程完成后，你可以：字段替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字）</div>
-	  <div class="organization_compile">
-	  	<button type="button" class="organization_compileBtn">编辑</button>
+		</div>
+	  	<div class="friend">
+		  <p class="friend_title"><span class="details_box_P1">课程视频</span></p>
+			<div class="mr_frbox">
+				<img class="mr_frBtnL prev" src="./images/icon_slide_left.png" />
+				<div class="mr_frUl">
+					<ul id="mr_fu">
+						<li><a href="#">
+							<img src="./images/img-video-pic1.jpg"/>
+						</a>
+						</li>
+						<li><a href="#">
+							<img src="./images/img-video-pic2.jpg" height="160" width="250" />
+						</a>
+						</li>
+						<li><a href="#">
+							<img src="./images/trust3.png" height="160" width="250" />
+						</a>
+						</li>
+						 <li><a href="#">
+							<img src="./images/img-video-pic1.jpg" />
+						</a>
+						</li>
+						<li><a href="#">
+							<img src="./images/img-video-pic2.jpg" />
+						</a>
+						</li>
+						<li><a href="#">
+							<img src="./images/2323.jpg" />
+						</a>
+						</li>                
+					</ul>
+				</div>
+				<img class="mr_frBtnR next" src="./images/icon_slide_right.png" />
+			</div>
+		</div>
+	  <div class="details_boxP5"><span class="details_box_P1">我教授的内容</span><span class="details_box_P2">替代站位文替代替代站位文替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字字替代站位文替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字字替代站位文替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字字替代站位文替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字字替代站位文替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字字替代站位文替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字字站位文字替代站位文字替代站位文字替代站位文字替代站位文字字</span></div>
+		  <div class="details_boxP6"><span class="details_box_P1">我教授的内容</span><span class="details_box_P2">我可以…替代站位文字…（该课程完成后，你可以：字段）</span></div>
+		  <div class="details_boxP7"><span class="details_box_P1">课程需要的工具</span><span class="details_box_P2">我可以…替代站位文字…（该课程完成后，你可以：字段）</span></div>
+		  <div class="details_boxP8"><span class="details_box_P1">课程老师的贴心话语</span><span class="details_box_P2">我可以…替代站位文字…（该课程完成后，你可以：字段替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字）你可以：字段替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字）你可以：字段替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字）你可以：字段替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字）你可以：字段替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字）你可以：字段替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字）你可以：字段替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字）你可以：字段替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字替代站位文字）</span></div>
+	  	  <div class="organization_compile">
+		  <button type="button" class="organization_compileBtn">编辑</button>
+		 <button type="button" class="organization_compileBtn ompileBtn_gray">删除</button>	  	
 	  </div>
    </div>
   <div class="details-right">
 	  <div class="organization_reserveTop">
 		<p class="reserveTop_p">每课时时长：<span class="reserveSpan">60</span>分钟</p>
-		<p class="reserveTop_p">建议课时数：<span class="reserveSpan">10</span>课时</p>
-		<div class="box-Coursedetail">
+		<p class="reserveTop_p2">建议课时数：<span class="reserveSpan">10</span>课时</p>
+		<div class="details-right-Coursedetail">
 		  <div class="course-details">
-			<div id="requer2" class="requer" style="display:none;">
+			<div id="requer2" class="details-right_requer" style="display:none;">
 			  <div class="requer-title">体贴的零风险保障</div>
 			  <div class="requer-content">学员若在首堂课后发现自己无法适应授课内容及形式，可再规定的时间内提出退款要求，经过我们审核后，将按个人意愿推荐其他老师或无条件退款。</div>
 			  <div class="requer-ques-left">什么是审核条款？</div>
 			  <div class="requer-ques-right">还有其他常见问题</div>
 			</div>
-			<div class="course-details-policy">查看优惠政策</div>
-			<div class="course-details-protect"> 零风险保障 <span id="ques2"> <img src="images/icon-question.png" alt="icon-question"> </span> </div>
+			<div class="details-right-policy">查看优惠政策</div>
+			<div class="details-right-protect">
+				<span class="details_protect_left">零风险保障</span>
+				<span id="ques2" class="details_protect_right"> </span> </div>
 		  </div>
 		</div>
 	</div>
@@ -223,7 +260,7 @@
 		<li><img src="images/icon_weibo.png"><span class="shareSpan">分享微博</span></li>
 		<li><img src="images/icon_wechat.png"><span class="shareSpan">分享微信</span></li>
 	 </ul>
-	  	 <div style="width:235px; margin:0 auto;"><img src="./images/icon_time.png" class="data-oranization_timeImg"><span class="organization_timeSpan">每周业余授课/上课大致时段</span></div>
+	  	 <div  class="organization_timeNav"><img src="./images/icon_time.png" class="data-oranization_timeImg"><span class="organization_timeSpan">每周业余授课/上课大致时段</span></div>
 	 <div class="organization_time">
 		<table class="organization_timeTable">
 			  <tr>
@@ -269,14 +306,43 @@
 			</table>
 		</div>
 	  <div class="organization_scope">
-	  		<div style="display:inline-block; width:235px;"><img src="./images/icon_gps.png" class="data-oranization_timeImg"><span class="organization_timeSpan">授课范围</span></div>
+	  		<div style="display:inline-block; width:235px;"><img src="./images/icon_gps.png" class="data-oranization_timeImg">
+				<span class="organization_timeSpan_teacher">老师上门</span>
+				<span class="organization_timeSpan">授课范围</span></div>
 		  	<p>上海市、静安区、2号地铁沿线、</p>
 		  	<p>7号地铁沿线、</p>
-		  <div class="organization_map">MAP地图</div>
+		    <div style="display:inline-block; width:235px;"><img src="./images/icon_gps.png" class="data-oranization_timeImg">
+				<span class="organization_timeSpan_teacher">一对三</span>
+				<span class="organization_timeSpan">授课地址</span></div>
+		  	<p>上海市、静安区、胶州路、</p>
+		  	<p>7号地铁沿线、</p>
 	  </div>
+	  <div class="organization_map">MAP地图</div>
+	  <button class="organization_callTeacherBtn">联系老师</button>
 	</div>
   </div>
 <!--课程详情结束--> 
+<!--弹出框区域--> 
+	<div class="organization_lightBox">
+		<div class="organization_loghtBoxTitle">给<span class="organizationlightBox_Icon"><img src="./images/Icons_student_boy_200px.png" width="60px" height="60px" style="margin-bottom:-20px"></span>老师：Clark<i>发送消息：</i>			
+		</div>
+		<div class="organization_lightbox_content" >关于幼儿游泳入门课程</div>	
+		<form>				
+			<textarea  maxlength="500" class="organization_lightboxTips">写点评价吧，对其他同学会很有用哦！</textarea>
+		</form>
+	<div class="lightbox3_btn">
+      <button type="button" class="lightbox3_btn_cancel">取消</button>
+      <button type="button" class="study_evaluate">发送</button>
+    </div>
+	</div>
+	<div class="organization_lightBox2">
+		<p>发送消息</p>
+		<div class="lightbox4_btn">
+		  <button type="button" class="lightbox3_btn_cancel">取消</button>
+		  <button type="button" class="organization_sure">发送</button>
+		</div>
+	</div>
+		<div class="organization_lightBox3">消息已经发送</div>
 <!--底部开始-->
 <div class="footer">
   <div class="foot">
@@ -326,6 +392,7 @@
 <script src="js/jquery.min.js"></script> 
 <script src="js/video.js"></script> 
 <script src="js/jquery.SuperSlide2.js"></script> 
+<script src="js/slide-menu.js"></script>
 <script type="text/javascript">
 		$(document).ready(function(){
 			$("#ques1").hover(function() {
@@ -348,7 +415,24 @@
 		autoPlay: true,
 		vis: 2
 	});
-	
+		//弹出层
+		$(function(){
+			//退款
+			$(".organization_callTeacherBtn").click(function(){
+			$(".organization_lightBox").slideDown();
+			var h=$(document).height();
+			$("#mybg").css("height",h)
+			$("#mybg").css("width","100%")
+			$("#mybg").show();
+			});
+			     $("#mybg,.lightbox3_btn_cancel").click(function(){
+					$(".organization_lightBox,#mybg,.organization_lightBox3").hide();
+				 });
+			$(".study_evaluate").click(function(){
+				$(".organization_lightBox").hide();
+				$(".organization_lightBox3").slideDown();
+			})
+		});	
 	</script>
 </body>
 </html>

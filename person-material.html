@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="css/person-material.css">
 </head>
 <body>
+	<div id="bg-save"></div>
 	<!--王雯洁开始--> 
 	<!--头部导航栏开始-->
 	<div class="box-Head">
@@ -81,42 +82,82 @@
 						</div>
 						<div class="material-tips">*仅当您和另一位学学看用户确认预订时，此资料才会被分享。</div>
 						<div class="material-title">出生日期
-							<div id="dateSelector">
-							    <select id="idYear" name="idYear" data=""></select>
-							    <div class="birth-year">年</div>
-							    <select id="idMonth" name="idMonth" data="12"></select>   
-							    <div class="birth-month">月</div>
-							    <select id="idDay" name="idDay" data="1"></select>
-							    <div class="birth-day">日</div>  
-						    </div>
-						    <div class="material-title-sex">
-						    	<select class="material-title-input2">
-								<option value='性别'>性别</option> 
-								<option value='男'>男</option> 
-								<option value='女'>女</option> 
-							</select>
+							<div class="material-birthday">
+								<div id="dateSelector" class="birth-divselect birth-width1">
+								    <select id="idYear" class="birth-selectlist1 birth-width2" name="idYear" data=""></select>
+								    <div class="birth-year">年</div>
+								    <select id="idMonth" class="birth-selectlist2 birth-width2" name="idMonth" data="12"></select>   
+								    <div class="birth-month">月</div>
+								    <select id="idDay" class="birth-selectlist3 birth-width2" name="idDay" data="1"></select>
+								    <div class="birth-day">日</div>  
+							    </div>
+							</div>
+						    <div class="material-sex">
+							    <div class="divselect width1">
+							    	<select class="selectlist width2">
+										<option value='性别'>性别</option> 
+										<option value='男'>男</option> 
+										<option value='女'>女</option> 
+									</select>
+							    </div>
 						    </div>
 						</div>
-						<div class="material-tips">*我们不会透露给其他用户。</div>
+						<div class="material-tips2">*我们不会透露给其他用户。</div>
 						<div class="material-title-content">
 							<div class="material-title-content-left">
 								<input class="material-phone" type="text" placeholder="您现在的手机是 138****6685">
 								<button class="acquire-text" type="button"><a href="#">获取验证码</a></button>
-								<div class="material-tips" style="margin-left:-1px;">*如需修改手机号码，请重新填写并获取短信验证码</div>
+								<div class="material-tips2" style="margin-left:-1px;">*如需修改手机号码，请重新填写并获取短信验证码</div>
 							</div>
 							<div class="material-title-content-right">
 								<input class="material-test" type="text" placeholder="输入验证码">
-								<div class="material-tips" style="margin-left:-1px;">*输入短信收到的数字验证码（有效时间90秒）</div>
+								<div class="material-tips2" style="margin-left:-1px;">*输入短信收到的数字验证码（有效时间90秒）</div>
 							</div>
 						</div>
 						<div class="material-title">电子邮箱<input class="material-title-email" type="text"></div>
-						<div class="material-tips">*仅当您和另一位学学看用户确认预订时，此资料才会被分享。</div>
-						<div class="material-title" style="padding-left:21px;">住址<input class="material-title-address" type="text"></div>
-						<div class="material-tips">*例如：上海 静安区</div>
+						<div class="material-tips2">*仅当您和另一位学学看用户确认预订时，此资料才会被分享。</div>
+						<div class="material-title"><p>所在地点</p>
+						
+						<div class="info city-divselect city-width1" style="margin-left:21px;margin-right:9px;">
+						<select id="s_province" class="city-selectlist1 city-width2" name="s_province"></select>
+						<script class="resources library" src="js/area.js" type="text/javascript"></script>
+						</div>
+						<div class="info city-divselect city-width1" style="margin-right:9px;">
+					    <select id="s_city" class="city-selectlist2 city-width2" name="s_city" ></select>
+					    <script class="resources library" src="js/area.js" type="text/javascript"></script>
+					    </div>
+					    <div class="info city-divselect city-width1">
+					    <select id="s_county" class="city-selectlist3 city-width2" name="s_county"></select>
+					    <script class="resources library" src="js/area.js" type="text/javascript"></script>
+					    </div>
+					    
+					    
+					    <script type="text/javascript">_init_area();</script>
+					   
+						</div>
+						<input class="material-title-address" type="text" placeholder="具体地址">
+						<div class="material-tips2">*例如上海市、静安区、胶州路823号602</div>
+						<div class="material-title-map">
+							<div class="material-title-map-left">Map地图</div>
+							<div class="material-tips">如果地图中位置不够准确，请在地图上重新定位。</div>
+						</div>
 						<button class="material-tips-error" type="button">验证码输入错误，请重新输入！</button>
 						<div class="material-button-group">
 							<button class="material-btn1" type="button">取消</button>
-							<button class="material-btn2" type="button">保存</button>
+							<div id="save-content"><button class="material-btn2" type="button">保存</button></div>
+							<!--弹出层-->
+							<div id="save-alert">
+          						<div class="save-hole">
+									<div class="save-title">
+						             	<p>保存修改</p>
+						             	<div class="save-button-group">
+						             		<div class="save-btn1">取消</div>
+						             		<div class="save-btn2">确认</div>
+						             	</div>
+						            </div>
+						        </div>
+						    </div>  
+						    <!--弹出层-->      
 							<button class="material-btn3" type="button">成为老师</button>
 						</div>
 					</form>
@@ -173,7 +214,9 @@
 	<!--底部结束--> 
 	<!--WangFeng end-->
 <script src="js/jquery.min.js"></script>
+<script src="js/slide-menu.js"></script>
 <script src="js/jquery.calendar.js"></script>
+<!--出生年月-->
 <script>
 $(document).ready(function () {
     var myDate = new Date();
@@ -189,5 +232,17 @@ $(document).ready(function () {
     });
 });
 </script>
+<!--出生年月-->
+<!--省市县三级联动-->
+<script type="text/javascript">
+var Gid  = document.getElementById ;
+var showArea = function(){
+	Gid('show').innerHTML = "<h3>省" + Gid('s_province').value + " - 市" + 	
+	Gid('s_city').value + " - 县/区" + 
+	Gid('s_county').value + "</h3>"
+							}
+Gid('s_county').setAttribute('onchange','showArea()');
+</script>
+<!--省市县三级联动-->
 </body>
 </html>

@@ -1,0 +1,79 @@
+.app-download-logo-button{
+	width: 100%;
+	height: 332px;
+	background-color: #fff;
+}
+.app-downlaod-center{
+	height: 290px;
+    margin: 42px auto 0;
+    width: 1200px;
+}
+.app-download-logo{
+	width: 300px;
+	height: 290px;
+	margin-left: 100px;
+	border-right:1px solid #cbcbcb;
+	float: left;
+}
+.app-download-logo p,.app-download-button p{
+	font-size: 16px;
+	color: #666666;
+}
+.app-download-logo p{
+	margin-bottom: 30px;
+}
+.app-download-button{
+	width: 522px;
+	height: 290px;
+	margin-left: 40px;
+	float: left;
+}
+.app-download-button p{
+	margin-bottom: 56px;
+}
+.app-download-btn1{
+	float:left;
+	margin-right: 40px;
+}
+.app-download-btn2{
+	float:left;
+}
+.app-download-map,.app-download-easy{
+	width: 100%;
+	height: 400px;
+}
+.app-download-map{
+	background-color: #c5c3bc;
+}
+.app-download-easy{
+	background-color: #cb5751;
+}
+.app-downlaod-map-center,.app-downlaod-easy-center{
+	height: 362px;
+    margin: 0 auto;
+    padding-top: 38px;
+    width: 1200px;
+}
+.app-downlaod-map-left,.app-downlaod-easy-left{
+	float: left;
+	margin-left: 100px;
+	margin-right: 64px;
+}
+.app-downlaod-title1{
+	font-size: 20px;
+	color: #fff;
+	margin-top: 42px;
+	margin-bottom: 20px;
+}
+.app-downlaod-title2{
+	font-size: 28px;
+	color: #595757;
+	margin-bottom: 32px;
+}
+.app-downlaod-content{
+	font-size: 12px;
+	color: #4d4d4d;
+}
+.app-downlaod-map-right,.app-downlaod-easy-right{
+	float: left;
+}

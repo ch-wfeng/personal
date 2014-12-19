@@ -60,7 +60,8 @@
   <div class="vip_tillec_center2"> 发布课程 </div>
 </div>
 <!--头部导航栏结束--> 
-<!--关于课程开始-->
+<!--关于老师开始-->
+<!--必填开始-->
 <div class="lessons-publish-box">
   <div class="about-lessons about-teacher-bg">关于老师</div>
   <div class="must-write">
@@ -70,72 +71,97 @@
   <div class="lessons-info">
     <div class="lessons-td-left">
       <p>老师姓名</p>
-      <p>年龄</p>
+      <p>性别</p>
       <p>教龄</p>
       <p>教育背景</p>
       <p>一句话介绍自己</p>
-      <p>擅长的领域</p>
+      <p>详细的"自我介绍"</p>
       <p></p>
-      <p>更多自我介绍</p>
       <p></p>
-      <div class="lessons-td-leftgap3"></div>
+      <p></p>
+      <p></p>
+      <p></p> 
+      <div class="lessons-teacherhead-picgap"></div>
       <p>头像照片</p>
-      <div class="lessons-td-leftgap2"></div>
-      <p>其他照片</p>
-      <div class="lessons-td-leftgap2"></div>
-      <p>获奖经历</p>
-      <p></p>
-      <p>上传证书照片</p>
     </div>
     <div class="lessons-td-right">
       <form>
         <input type="text" class="lessons-td-right-midinput">
+        <button type="button" class="lessons-td-rightbutton">男</button>
+        <button type="button" class="lessons-td-rightbutton">女</button>
       </form>
       <div class="lessons-time">
         <form>
-          <input type="text"  class="lessons-td-right-shortinput">
-          <input type="text" class="lessons-td-right-shortinput">
+          <input type="number"  class="lessons-td-right-shortinput2" value="8" min="1">
         </form>
         <div class="time-position">年</div>
-        <div class="money-position">年</div>
       </div>
       <form id="taech-type">
         <input type="text" placeholder="" class="lessons-td-right-tip">
         <input type="text" placeholder="" class="lessons-td-right-tip">
-        <textarea class="lessons-right-lowtxtarea"></textarea>
-        <textarea class="lessons-right-lowtxtarea" placeholder="例如：教学特点、性格特点"></textarea>
+        <textarea class="lessons-right-lowtxtarea" placeholder="1、擅长的领域"></textarea>
+        <textarea class="lessons-right-lowtxtarea" placeholder="2、我的教课特点"></textarea>
+        <textarea class="lessons-right-lowtxtarea" placeholder="2、我的性格特点"></textarea>
       </form>
-      <div class="lessons-add-pic"><img src="images/add-bank-icon.png">
-        <p>上传照片
-        </p>
+      <div class="lessons-add-pic1"><img src="images/add-bank-icon.png">
+        <p>上传照片 </p>
+        请上传400KB以上的图片
+        <button>修改图片</button>
       </div>
-      <div class="lessons-add-tip">
+      <div class="lessons-add-tip1">您上传的头像将显示为以下效果
+        <img src="images/lessons-headpic-case.png">
       </div>
+    </div>
+  </div>
+  <!--必填结束--> 
+  <!--选填开始-->
+<div class="option-write">
+    <p>选填　　如果您的课程还有更多的的宣传内容，请填写在这里。</p>
+</div>
+  <div class="lessons-info">
+    <div class="lessons-td-left">
+      <p>老师资质</p>
+      <p></p>
+      <p>资质证书</p>
+      <div class="lessons-td-leftgap2"></div>
+      <p>获奖经历</p>
+      <p></p>
+      <p>上传证书照片</p>
+      <div class="lessons-td-leftgap2"></div>
+      <p>其他照片</p>
+    </div>
+    <div class="lessons-td-right">
+      <form>
+        <textarea class="lessons-right-lowtxtarea"></textarea>
+      </form>
       <div class="lessons-add-pic">
-        </p>
       </div>
       <div class="lessons-add-pic"><img src="images/add-bank-icon.png">
-        <p>上传照片
-        </p>
+        <p>上传照片 </p>
+        请上传640px宽度以上的图片
       </div>
       <form>
-          <textarea class="lessons-right-lowtxtarea"></textarea>
-        </form>
-         <div class="lessons-add-pic">
-        </p>
+        <textarea class="lessons-right-lowtxtarea"></textarea>
+      </form>
+      <div class="lessons-add-pic">
       </div>
       <div class="lessons-add-pic"><img src="images/add-bank-icon.png">
-        <p>上传照片
-        </p>
+        <p>上传照片 </p>
+      </div>
+      <div class="lessons-add-pic">
+      </div>
+      <div class="lessons-add-pic"><img src="images/add-bank-icon.png">
+        <p>上传照片</p>
+        请上传640px宽度以上的图片
       </div>
     </div>
   </div>
   <form class="last-btn last-teacher-btn">
-  		<button type="button" class="last-btn-cancel">取消</button>
-        <button type="button" class="last-btn-sub">提交</button>
+    <button type="button" class="last-btn-cancel">取消</button>
+    <button type="button" class="last-btn-sub">提交</button>
   </form>
 </div>
-<!--关于课程结束--> 
+<!--关于老师结束--> 
 <!--底部开始-->
 <div style="clear:both"></div>
 <div class="footer">
@@ -186,14 +212,14 @@
 <script src="js/jquery.min.js"></script> 
 <script src="js/slide-menu.js"></script> 
 <script type="text/javascript">
-	$(function(){
-		$(".lessons-td-rightbutton").click(function(){
-			$(this).css("background-color","#ea6d65")
-			});
-		$(".lessons-right-table td").click(function(){
-			$(this).css("background","url(images/lessons-time-bg.png) no-repeat 15px")
-			});
-		});
+	$(".lessons-td-rightbutton").click(function(){
+      if($(this).hasClass("redbutton"))
+      { 
+        $(this).removeClass("redbutton")}
+      else{
+                $(this).addClass("redbutton");    
+                }
+      });
 </script>
 </body>
 </html>

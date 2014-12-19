@@ -22,6 +22,18 @@ $(".input-position").blur(function() {
     $(this).val("您的位置（比如：人民广场）");
   };
 });
+/*课程详情页面的弹出框*/
+$(".organization_lightboxTips").val("您想学习什么课程？");
+$(".input-coruse").click(function() {
+  if ($(this).val()！="") {
+    $(this).val("");
+  };
+});
+$(".input-coruse").blur(function() {
+  if ($(this).val()=="") {
+    $(this).val("您想学习什么课程？");
+  };
+});
 /*侧边栏*/
 $(function () {
     $("#box-out li").mouseover(function () {
@@ -72,7 +84,21 @@ $(function(){
      });
 });
 /*注册*/
-/*帮助下拉列表*/
+/*保存修改*/
+$(function(){
+  $("#save-content").click(function(){
+  $("#save-alert").slideDown();
+    var h=$(document).height();
+    $("#bg-save").css("height",h)
+    $("#bg-save").css("width","100%")
+    $("#bg-save").show();
+    });
+     $(".save-btn1").click(function(){
+      $("#save-alert").hide();
+      $("#bg-save").hide();
+     });
+});
+/*保存修改*/
 /*弹出层*/
 /*帮助下拉列表*/
 $(function () {

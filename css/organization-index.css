@@ -1,19 +1,19 @@
-.box-Img1-bg{
+.box-Img1-bg {
 	height: 400px;
 	background-color: #dcdcdc;
 }
-.box-Img1{
+.box-Img1 {
 	height: 400px;
 	background-image: url(../images/organization-index.jpg);
 	position: relative;
 }
-.organization-left{
+.organization-left {
 	float: left;
 	position: absolute;
-	top:300px;
+	top: 300px;
 	left: 100px;
 }
-.organization-left-div,.organization-right-div-title{
+.organization-left-div, .organization-right-div-title {
 	height: 60px;
 	background-color: #3d73b1;
 	font-size: 15px;
@@ -21,65 +21,65 @@
 	line-height: 60px;
 	text-align: center;
 }
-.organization-left-div{
+.organization-left-div {
 	width: 300px;
 }
-.organization-right-div-title{
+.organization-right-div-title {
 	width: 340px;
 }
-.organization-right{
+.organization-right {
 	float: right;
 	position: absolute;
 	top: 70px;
 	right: 10px;
 }
-.organization-right-div{
+.organization-right-div {
 	width: 340px;
 	height: 290px;
 }
-.organization-right-div-content{
+.organization-right-div-content {
 	width: 300px;
 	height: 190px;
 	background-color: #fff;
-	padding:20px;
+	padding: 20px;
 }
-.organization-phone,.organization-password{
+.organization-phone, .organization-password {
 	width: 278px;
 	height: 40px;
-	margin:0 auto;
+	margin: 0 auto;
 	padding-left: 20px;
 	font-size: 12px;
 	color: #808285;
 	line-height: 40px;
-	border:1px solid #e6e6e7;
+	border: 1px solid #e6e6e7;
 	margin-bottom: 10px;
 }
-.organization-span-left,.organization-span-right{
+.organization-span-left, .organization-span-right {
 	font-size: 12px;
 	color: #808285;
 }
-.organization-span-left{
+.organization-span-left {
 	float: left;
 }
-.organization-span-right{
+.organization-span-right {
 	float: right;
 }
-.organization-right-div-content p{
+.organization-right-div-content p {
 	margin-bottom: 28px;
 }
-.organization-error{
+.organization-error {
 	width: 300px;
 	text-align: center;
 	font-size: 12px;
 	color: #ea6d65;
 	margin-bottom: 12px;
 }
-.organization-button-group{
+.organization-button-group {
 	width: 254px;
 	height: 40px;
-	margin:0 auto;
+	margin: 0 auto;
 }
-.organization-btn1,.organization-btn2{
+.organization-btn1, .organization-btn2 {
 	width: 120px;
 	height: 40px;
 	text-align: center;
@@ -87,10 +87,10 @@
 	font-size: 15px;
 	color: #fff;
 }
-.organization-btn1{
+.organization-btn1 {
 	background-color: #c9c9cb;
 	margin-right: 10px;
 }
-.organization-btn2{
+.organization-btn2 {
 	background-color: #ea6d65;
 }

@@ -1,55 +1,296 @@
 /*出生日期*/
-#dateSelector{
+#dateSelector {
 	margin-left: 62px;
-    margin-top: -38px;
+	margin-top: -38px;
+	position: absolute;
+	margin-right: 10px;
+}
+#idMonth, #idDay {
+	padding-left: 10px;
+	float: left;
+}
+#idMonth{
+	margin-left: 93px;
+    margin-top: -20px;
     position: absolute;
-    width: 240px;
-    margin-right: 10px;
 }
-select{ 
-    font-size: 12px;
-    color: #808285;
-    position: relative;
-    left: -2px;
-    top: -2px;
-    width: 130px;
-    border:none;
-    height:40px;
-    width:90px;
-    padding-top: 12px;
-    padding-left: 16px;
-    border: 1px solid #e6e6e7;
+#idDay{
+	margin-left: 164px;
+    margin-top: -20px;
+    position: absolute;
 }
-#idYear{ width:90px;}
-#idMonth,#idDay{ width:70px; padding-left:10px;}
-.birth-year,.birth-month,.birth-day{
-    position:absolute; 
-    z-index:2;
-    margin-top: -40px;
-    font-size: 12px;
-    color: #808285;
+.birth-year, .birth-month, .birth-day {
+	position: absolute;
+	z-index: 2;
+	margin-top: -34px;
+	font-size: 12px;
+	color: #808285;
 }
-.birth-year{
+.birth-year {
 	margin-left: 48px;
 }
-.birth-month{
-	margin-left: 120px;
+.birth-month {
+	margin-left: 125px;
 }
-.birth-day{
+.birth-day {
 	margin-left: 192px;
 }
+.birth-width1
+{
+	width: 230px;
+}
+.birth-width2
+{
+	width: 120%;
+}
+.birth-divselect{
+	position: relative;
+	height: 28px;
+	overflow: hidden; /*隐藏了小三角，宽度为比select宽度少20px*/
+	border-width:0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	border:1px solid #e6e6e7;
+	padding-top: 12px;
+	background-color: #fff;
+	float: left;
+}
+.birth-selectlist1{
+	background-color: transparent;
+	border-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	display:block;
+	height: 20px;
+	overflow:hidden;
+	font-size: 12px;
+	color: #808285;
+	padding-left: 16px;
+	background: url(../images/icon-arrow-black.png) no-repeat;
+	background-position: 70px center;
+}
+.birth-selectlist2{
+	background-color: transparent;
+	border-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	display:block;
+	height: 20px;
+	overflow:hidden;
+	font-size: 12px;
+	color: #808285;
+	padding-left: 16px;
+	background: url(../images/icon-arrow-black.png) no-repeat;
+	background-position: 48px center;
+}
+.birth-selectlist3{
+	background-color: transparent;
+	border-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	display:block;
+	height: 20px;
+	overflow:hidden;
+	font-size: 12px;
+	color: #808285;
+	padding-left: 16px;
+	background: url(../images/icon-arrow-black.png) no-repeat;
+	background-position: 48px center;
+}
 /*出生日期*/
+/*省市县三级联动*/
+.city-width1{
+	width: 172px;
+}
+.city-width2{
+	width: 120%;
+}
+.city-divselect{
+	position: relative;
+	height: 28px;
+	overflow: hidden; /*隐藏了小三角，宽度为比select宽度少20px*/
+	border-width:0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	border:1px solid #e6e6e7;
+	padding-top: 12px;
+	background-color: #fff;
+	float: left;
+}
+.city-selectlist1{
+	background-color: transparent;
+	border-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	display:block;
+	height: 20px;
+	overflow:hidden;
+	font-size: 12px;
+	color: #808285;
+	padding-left: 16px;
+	background: url(../images/icon-arrow-black.png) no-repeat;
+	background-position: 145px center;
+}
+.city-selectlist2{
+	background-color: transparent;
+	border-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	display:block;
+	height: 20px;
+	overflow:hidden;
+	font-size: 12px;
+	color: #808285;
+	padding-left: 16px;
+	background: url(../images/icon-arrow-black.png) no-repeat;
+	background-position: 145px center;	
+}
+.city-selectlist3{
+	background-color: transparent;
+	border-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	display:block;
+	height: 20px;
+	overflow:hidden;
+	font-size: 12px;
+	color: #808285;
+	padding-left: 16px;
+	background: url(../images/icon-arrow-black.png) no-repeat;
+	background-position: 145px center;
+}
+/*省市县三级联动*/
+/*select样式*/
+
+/*套在Select外层，用于隐藏Select框*/
+.divselect
+{
+	position: relative;
+	height: 28px;
+	overflow: hidden; /*隐藏了小三角，宽度为比select宽度少20px*/
+	border-width:0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	border:1px solid #e6e6e7;
+	padding-top: 12px;
+	background: url(../images/icon-arrow-black.png) no-repeat;
+	background-position: 100px center;
+	background-color: #fff;
+}
+/*设置Select样式*/
+.selectlist
+{
+	background-color: transparent;
+	border-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	display:block;
+	height: 20px;
+	overflow:hidden;
+	font-size: 12px;
+	color: #808285;
+	padding-left: 20px;
+}
+/*select样式*/
 /*性别*/
-.material-title-sex{
+.material-sex{
 	position: absolute;
-	margin-left: 294px;
+	margin-left: 314px;
 	margin-top: -38px;
 }
+.width1
+{
+	width: 130px;
+}
+.width2
+{
+	width: 120%;
+}
 /*性别*/
-.meterial-middle-center-title{
+/*弹出层*/
+#bg-save{
+	position: absolute;
+	z-index: 999;
+	background-color: #666;
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+}
+#save-alert{
+	width: 100%;
+	z-index: 1000;
+	position: absolute;
+	left: 0;
+	top: 30%;
+	display: none;
+}
+.save-hole{
+	width: 982px;
+	height: 120px;
+	margin: 0 auto;
+	background-color: #666;
+	margin-top: 230px;
+}
+.save-title{
+	width: 982px;
+	height: 120px;
+	background-color: #EA6D65;
+}
+.save-title p{
+	width: 254px;
+	margin:0 auto;
+	padding-top: 22px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+.save-button-group{
+	width: 254px;
+	margin:0 auto;
+	margin-top: 22px;
+}
+.save-btn1,.save-btn2{
+	width: 122px;
+	height: 40px;
+	font-size: 15px;
+	background-color: #fff;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+}
+.save-btn1{
+	margin-right: 10px;
+	color: #808285;
+}
+.save-btn2{
+	color: #ea6d65;
+}
+/*弹出层*/
+.meterial-middle-center-title {
 	color: #fff;
 }
-.material-name{
+.material-name {
 	width: 610px;
 	height: 40px;
 	padding-top: 20px;
@@ -57,7 +298,7 @@ select{
 	color: #808285;
 	line-height: 40px;
 }
-.material-name input{
+.material-name input {
 	width: 207px;
 	height: 40px;
 	border: 1px solid #e6e6e7;
@@ -66,11 +307,11 @@ select{
 	padding-left: 21px;
 	font-size: 12px;
 }
-.material-name-input1{
+.material-name-input1 {
 	width: 230px;
 	margin-right: 35px;
 }
-.material-tips{
+.material-tips {
 	width: 610px;
 	font-size: 12px;
 	color: #808285;
@@ -78,18 +319,26 @@ select{
 	margin-left: 44px;
 	margin-bottom: 28px;
 }
-.material-title-content{
+.material-tips2{
+	width: 610px;
+	font-size: 12px;
+	color: #808285;
+	margin-top: 10px;
+	margin-left: 68px;
+	margin-bottom: 28px;
+}
+.material-title-content {
 	width: 610px;
 	height: 96px;
-	margin:0 auto;
+	margin: 0 auto;
 	position: relative;
 }
-.material-title-content-left{
+.material-title-content-left {
 	width: 300px;
 	margin-right: 10px;
 	float: left;
 }
-.acquire-text{
+.acquire-text {
 	width: 90px;
 	height: 31px;
 	position: absolute;
@@ -101,14 +350,14 @@ select{
 	z-index: 999px;
 	margin-top: -37px;
 	margin-left: 205px;
-	_margin-left:-98px;
-	_margin-top:7px;
-	_z-index:999;
+	_margin-left: -98px;
+	_margin-top: 7px;
+	_z-index: 999;
 }
-.acquire-text a{
+.acquire-text a {
 	color: #fff;
 }
-.material-phone,.material-test{
+.material-phone, .material-test {
 	width: 279px;
 	height: 40px;
 	border: 1px solid #e6e6e7;
@@ -117,47 +366,72 @@ select{
 	font-size: 12px;
 	color: #808285;
 }
-.material-title-content-right{
+.material-title-content-right {
 	width: 300px;
 	float: left;
 }
-.material-title{
+.material-title {
 	width: 610px;
 	height: 40px;
 	font-size: 12px;
 	color: #808285;
-	line-height:40px;
+	line-height: 40px;
 }
-.material-title input{
+.material-title input {
 	border: 1px solid #e6e6e7;
 	background-color: #fff;
 	margin-left: 21px;
 	height: 40px;
 }
-.material-title-email{
+.material-title-email {
 	width: 230px;
 }
-.material-title-address{
-	width: 540px;
+.material-title p{
+	float: left;
 }
-.material-title-input1,.material-title-input2{
+.material-title-address {
+	border: 1px solid #e6e6e7;
+	background-color: #fff;
+	margin-left: 68px;
+	height: 40px;
+	width: 517px;
+	margin-top: 10px;
+	font-size: 12px;
+	padding-left: 21px;
+}
+.material-title-map{
+	margin-top: 20px;
+}
+.material-title-map-left{
+	margin-right: 12px;
+	width: 250px;
+	height: 160px;
+	border:1px solid #c9c9ca;
+	background-color: #e6e6e7;
+	font-size: 12px;
+	color: #58595b;
+	text-align: center;
+	line-height: 160px;
+	float: left;
+}
+.material-title-input1, .material-title-input2 {
 	border: 1px solid #e6e6e7;
 	background-color: #fff;
 	margin-left: 21px;
 	height: 40px;
 }
-.material-title-input1{
+.material-title-input1 {
 	width: 230px;
 	margin-right: 10px;
 }
-.material-title-input2{
+.material-title-input2 {
 	width: 109px;
 	padding-left: 21px;
 	font-size: 12px;
 	color: #808285;
 	padding-top: 10px;
 }
-.material-tips-error{
+.material-tips-error {
 	width: 610px;
 	height: 40px;
 	font-size: 12px;
@@ -167,34 +441,36 @@ select{
 	line-height: 40px;
 	text-align: center;
 	margin-bottom: 28px;
+	margin-top: 40px;
 }
-.material-button-group{
+.material-button-group {
 	width: 390px;
 	height: 40px;
-	margin:0 auto;
+	margin: 0 auto;
 }
-.material-btn1{
+.material-btn1 {
 	margin-right: 10px;
 	background-color: #c9c9ca;
 }
-.material-btn2{
+.material-btn2 {
 	margin-right: 10px;
 	background-color: #ea6d65;
 }
-.material-btn3{
+.material-btn3 {
 	background-color: #3399cc;
 }
-.material-btn1,.material-btn2,.material-btn3{
+.material-btn1, .material-btn2, .material-btn3 {
 	width: 120px;
 	height: 40px;
 	line-height: 40px;
 	text-align: center;
 	font-size: 15px;
 	color: #fff;
+	float: left;
 }
-.meterial-middle-center{
-	height: 700px;
+.meterial-middle-center {
+	height: 952px;
 }
-.meterial-middle-center-content{
-	height: 634px;
+.meterial-middle-center-content {
+	height: 890px;
 }

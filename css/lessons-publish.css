@@ -6,10 +6,11 @@ input {
 	height: 38px;
 	padding-left: 10px;
 	margin-top: 20px;
-	color:#929292;
+	color:#808285;
+	line-height: 40px\0;
 }
 form{ display: inline-block;}
-select{ padding-left:10px;}
+select{ padding-left:10px; height: 40px; margin-top: 20px; width: 504px;	border: 1px #c9c9ca solid;}
 option{ padding-left:10px;}
 textarea {
 	border: 1px #c9c9ca solid;
@@ -17,8 +18,9 @@ textarea {
 	margin-top: 20px;
 	display: block;
 	line-height:20px;
-	color:#929292;
+	color:#808285;
 	clear: both;
+	resize:none;
 }
 .lessons-publish-box {
 	width: 982px;
@@ -37,6 +39,7 @@ textarea {
 .about-teacher-bg {
 	background-color: #ea6d65;
 }
+.lessons-td-right span{ display: block}
 .must-write {
 	width: 548px;
 	height: 58px;
@@ -79,14 +82,11 @@ textarea {
 }
 .lessons-td-leftgap {
 	height: 33px;
-	margin-top: 20px;
+	margin-top: 28px;
 }
 .lessons-td-leftgap2 {
 	height: 33px;
-	margin-top: 88px;
-}
-.lessons-td-leftgap3 {
-
+	margin-top: 86px;
 }
 .lessons-td-right {
 	width: 520px;
@@ -94,16 +94,24 @@ textarea {
 	float: left;
 	color: #bcbec0;
 }
+.lessons-teacherhead-picgap{ margin-top: 5px; height: 5px;}
+.lessons-teacherhead-picgap2{ margin-top: 150px; height: 20px;}
 .lessons-td-right-midinput {
 	width: 288px;
+	display:block;
 }
-.lessons-td-right-shortinput {
-	width: 118px;
+.lessons-td-right-shortinput1 {
+	width: 108px;
+	margin-right: 5px;
+}
+.lessons-td-right-shortinput2 {
+	width: 108px;
 	display: block;
+
 }
 .lessons-td-rightbutton {
 	width: 118px;
-	height: 38px;
+	height: 40px;
 	margin-top: 20px;
 	background-color: #c9c9ca;
 	margin-right: 7px;
@@ -114,12 +122,13 @@ textarea {
 .no-margin-right {
 	margin-right: -5px;
 }
-.lessons-td-right select {
+.lessons-right-midselect {
 	width: 300px;
-	height: 40px;
-	margin-top: 20px;
 	_margin-top: 33px;
-	border: 1px #c9c9ca solid;
+}
+.lessons-right-shortselect {
+	width: 120px;
+	margin-right: 5px;
 }
 .lessons-td-right-tip {
 	width: 492px;
@@ -128,25 +137,22 @@ textarea {
 .lessons-time {
 	position: relative;
 }
-.lessons-time select {
-	width: 130px;
-}
 .time-position {
 	position: absolute;
 	top: 32px;
-	left: 140px;
+	left: 130px;
 	color: #725F62;
 }
 .money-position {
 	position: absolute;
 	top: 92px;
-	left: 140px;
+	left: 130px;
 	color: #725F62;
 }
 .lessons-time-position {
 	position: absolute;
 	top: 152px;
-	left: 140px;
+	left: 130px;
 	color: #725F62;
 	_top: 138px;
 }
@@ -156,13 +162,15 @@ textarea {
 	border: 1px #c9c9ca solid;
 	margin-top: 20px;
 	background-color: #fff;
+	color: #000;
 }
+.lessons-right-table th{color: #ea6d65;}
+#th-fontcolor th{ color: #808285}
 .lessons-right-table td {
 	text-align: center;
-	color: #000;
 	cursor:pointer;
 }
-.addtdbg{ background:url(../images/lessons-time-bg.png) no-repeat 15px;}
+.addtdbg{ background:url(../images/lessons-time-bg.png) no-repeat 15px; color: #fff}
 .lessons-right-lowtxtarea {
 	width: 482px;
 	height: 88px;
@@ -179,12 +187,33 @@ textarea {
 	text-align: center;
 	border: 1px #c9c9ca solid;
 	margin-right: 5px;
-	color: #000;
+ 	color:#58595b;
+	background-color: #e6e6e7;
+}
+.lessons-add-pic1 {
+	width: 200px;
+	height: 200px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	float: left;
+	text-align: center;
+	margin-right: 5px;
+	border-radius: 100px;
+	background-color: #e6e6e7;
+	overflow: hidden;
+	 color:#58595b
 }
 .lessons-add-pic img {
-	margin-top: 45px;
+	margin-top: 35px;
 	margin-bottom: 15px;
 }
+.lessons-add-pic1 img {
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+.lessons-add-pic1 p{ margin-bottom: 3px;}
+.lessons-add-pic p{ margin-bottom: 3px;}
+.lessons-add-pic1 button{ height: 30px; width: 200px; background-color: #a1a1a1; margin-top: 33px; color: #fff;}
 .lessons-add-tip {
 	width: 248px;
 	height: 160px;
@@ -194,6 +223,17 @@ textarea {
 	line-height: 20px;
 	color: #929292;
 }
+.lessons-add-tip1{
+	width: 248px;
+	height: 200px;
+	margin:30px 0 10px 52px;
+	float: left;
+	line-height: 20px;
+	color: #666;
+
+}
+.lessons-add-tip1 img{ margin-top: 50px;}
+.lessons-add-tip a{ color: #929292; text-decoration: underline;}
 .add-tip-gap {
 	margin-top: 25px;
 }

@@ -211,7 +211,9 @@ a {
 .meterial-middle-center{
 	width: 982px;
 	height: 670px;
-	margin: 20px auto 40px;
+	margin:0 auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 .meterial-middle-center-title{
 	width: 982px;
@@ -239,16 +241,17 @@ a {
 /*王枫*/
 /*标题栏开始*/
 .vip_title{
-	width: 100%;background: #f2f2f2;background: url(../images/vip_title_bg.jpg); height: 40px;  margin-top: 1px;line-height: 40px;font-size:12px; color: #58595b;
+	width: 100%;background: #f2f2f2;background: url(../images/vip_title_bg.jpg); height: 40px;  margin-top: 1px;line-height: 40px; color: #58595b;
 }
 .vip_tillec_center {
-	width: 982px;  margin: 0 auto; text-align: center; font-size:12px;
+	width: 982px;  margin: 0 auto; text-align: center; 
 }
-.vip_tillec_center2 {
-	font-size:18px; 
-	color: #58595b;
+.vip_tillec_center2 { 
 	font-weight: bolder;
-	width: 982px;  margin: 0 auto; text-align: center; font-size:18px;
+	width: 982px;  
+	margin: 0 auto; 
+	text-align: center; 
+	font-size:18px;
 }
 .vip_tillec_center2 p{
 	font-size: 12px;
@@ -272,6 +275,9 @@ a {
 .footer {
 	width: 100%;
 	border-top: 1px solid #999;
+	background: url(../images/footer.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
 }
 .foot {
 	height: 240px;
@@ -331,34 +337,6 @@ a {
 /*底部样式结束*/
 /*王枫*/
 /*视频*/
-.no-svg .play {
-	background: url("/assets/images/icons/play_50x50.png") no-repeat 50%;
-	-webkit-border-radius: 0;
-	border-radius: 0;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	-o-box-shadow: none;
-}
-.no-touch .play {
-	opacity: .85;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity=85);
-	-webkit-transition: opacity 0.3s ease;
-	-moz-transition: opacity 0.3s ease;
-	-o-transition: opacity 0.3s ease;
-}
-.play-wrap {
-	height: 82%;
-	left: 1%;
-	position: absolute;
-	top: 2%;
-	width: 57%;
-}
-.no-touch .play-wrap:hover .play {
-	opacity: 1;
-	-ms-filter: none;
-	filter: none
-}
 .video-popup {
 	cursor: pointer;
 	height: 256px;
@@ -407,6 +385,7 @@ a {
 	width: 44px;
 	z-index: 2;
 	right: -44px;
+		border-bottom:none;
 }
 .video-popup-close:hover {
 	opacity: 1;
@@ -415,7 +394,7 @@ a {
 	background-image: url(../images/button_close_hover.png);
 }
 .massage {
-	width: 640px;
+	width: 596px;
 	height: 44px;
 	position: absolute;
 	top: -44px;
@@ -423,7 +402,7 @@ a {
 	line-height: 44px;
 	font-size: 18px;
 	padding-left: 44px;
-	border-bottom: #000000 2px solid
+	border-bottom: #000000 2px solid;
 }
 /*视频*/
 /*会员中心主体代码*/
@@ -438,17 +417,51 @@ a {
 }
 /*分页导航*/
 .nav_paging {
-	width: 560px; margin:20px auto 40px; height: 40px;
+	width: 560px;
+	margin: 20px auto 40px;
+	height: 40px;
+}
+.nav_paging li {
+	height: 40px;
+	width: 40px;
+	float: left;
+	margin-left: 10px;
+	background: #f2f2f2;
+	line-height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 5px;
+	margin-bottom: 36px;
+}
+.nav_paging li:hover {
+	background: #ea6d65;
+	color: #fff;
+}
+#nav_pagingli {
+	width: 70px;
+	text-align: center;
+}
+#mybg {
+	position: fixed;
+	z-index: 500;
+	background-color: #000;
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;  /*IE4-IE9*/
+}
+.cblack {
+	color: #000;
 }
 .nav_paging li{height: 40px;width: 40px; float:left; margin-left: 10px; background: #f2f2f2; line-height: 40px;text-align: center; vertical-align: middle; border-radius:5px;}
+	width: 560px; margin:20px auto 40px; height: 40px;
+}
+.nav_paging li{height: 40px;width: 40px; float:left; margin-left: 10px; background: #f2f2f2; line-height: 40px;text-align: center; vertical-align: middle; border-radius:5px; margin-bottom: 36px;}
 .nav_paging li:hover{background:#ea6d65; color:#fff; }
 #nav_pagingli{width: 70px; text-align: center;}
-<<<<<<< HEAD
 
 #mybg{ position:fixed;z-index: 500; background-color: #000; filter: 	alpha(opacity=70);
 		-moz-opacity: 0.7;
 		-khtml-opacity: 0.7;
 		opacity: 0.7;  /*IE4-IE9*/    }
 .cblack{color:#000;}
-=======
->>>>>>> 25a0246546c6daadcf36c48c51b30f312c626466

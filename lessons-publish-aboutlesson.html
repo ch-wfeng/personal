@@ -67,19 +67,24 @@
     <p>必填　　请填写真实信息，并描述写的具体些，这样能让您的学生详细的了解您的课程内容。</p>
     <p>　　　　同时希望您能提供的课程照片、图片。</p>
   </div>
-<!--必填-->
+  <!--必填-->
   <div class="lessons-info">
     <div class="lessons-td-left">
       <p>课程名称</p>
       <p>所属学科</p>
+      <p>课程级别</p>
       <p>适合人群</p>
+      <p></p>
       <p></p>
       <p>每个课时时间</p>
       <p>每人每课时收费</p>
       <p>建议课时数</p>
-      <p>授课区域</p>
-      <p></p>
       <p>授课方式</p>
+      <p></p>
+      <p>教学地址</p>
+      <p></p>
+      <p>教学范围</p>
+      <p></p>
       <p></p>
       <p>授课时间段</p>
       <p></p>
@@ -102,28 +107,31 @@
     <div class="lessons-td-right">
       <form>
         <input type="text" placeholder="例如：水彩画入门" class="lessons-td-right-midinput">
-        <select>
-        </select>
-        <select>
-        </select>
-        <input type="text"  class="lessons-td-right-tip" placeholder="其他人群补充 例如：任何一个想和水彩画结缘的18岁以上成年人，没有美术基础也可以哦">
+        <select class="lessons-right-shortselect"></select>
+        <select class="lessons-right-shortselect"></select>
+        <select class="lessons-right-shortselect"></select>
+        <input type="text"  class="lessons-td-right-shortinput1">
+        <span><select class="lessons-right-shortselect"></select>
+        <input type="text"  class="lessons-td-right-shortinput1"></span>
+        <button type="button" class="lessons-td-rightbutton">幼儿</button>
+        <button type="button" class="lessons-td-rightbutton">小学</button>
+        <button type="button" class="lessons-td-rightbutton">初中</button>
+        <button type="button" class="lessons-td-rightbutton no-margin-right">高中</button>
+        <button type="button" class="lessons-td-rightbutton">大学</button>
+        <button type="button" class="lessons-td-rightbutton">证人</button>
+        <input type="text" placeholder="其他人群补充　例如: 任何一位想要与水彩画结缘的18岁以上成年人，没有美术基础也可以哦" class="lessons-td-right-tip">
       </form>
       <div class="lessons-time">
         <form>
-          <input type="text"  class="lessons-td-right-shortinput">
-          <input type="text" value="￥" class="lessons-td-right-shortinput">
-          <select>
-          <option>10</option>
-          </select>
+          <input type="text"  class="lessons-td-right-shortinput1">
+          <input type="text" value="￥" class="lessons-td-right-shortinput2">
+          <input type="number"  class="lessons-td-right-shortinput2" value="8" min="1">
         </form>
         <div class="time-position">分钟</div>
         <div class="money-position">元</div>
         <div class="lessons-time-position">课时</div>
       </div>
       <form id="taech-type">
-        <select>
-        </select>
-        <input type="text" class="lessons-td-right-tip" placeholder="默认注册时所填地点，或补充更多说明。">
         <button type="button" class="lessons-td-rightbutton">老师上门</button>
         <button type="button" class="lessons-td-rightbutton">学生上门</button>
         <button type="button" class="lessons-td-rightbutton">在线上课</button>
@@ -132,8 +140,19 @@
         <button type="button" class="lessons-td-rightbutton">一对二</button>
         <button type="button" class="lessons-td-rightbutton">一对三</button>
         <button type="button" class="lessons-td-rightbutton no-margin-right">一对多</button>
+        <select class="lessons-right-shortselect"></select>
+        <select class="lessons-right-shortselect"></select>
+        <select class="lessons-right-shortselect"></select>
+        <input type="text" placeholder="具体地址 ( 可否根据授课方式用程序判断是否出现此字段 ) " class="lessons-td-right-tip">
+        <span><select class="lessons-right-shortselect"></select>
+        <select class="lessons-right-shortselect"></select>
+        <input type="text"  class="lessons-td-right-shortinput1"></span>
+        <input type="text"  class="lessons-td-right-shortinput1">
+        <select class="lessons-right-shortselect"></select>
+        <input type="text"  class="lessons-td-right-shortinput1">
+        <input type="text" placeholder="教学范围补充说明 ( 可否根据授课方式用程序判断是否出现此字段 ) " class="lessons-td-right-tip">
         <table class="lessons-right-table">
-          <tr>
+          <tr id="th-fontcolor">
             <th>一</th>
             <th>二</th>
             <th>三</th>
@@ -151,7 +170,7 @@
             <td>上</td>
             <td>上</td>
             <td>上</td>
-            <td>午</td>
+            <th>午</th>
           </tr>
           <tr>
             <td>中</td>
@@ -161,7 +180,7 @@
             <td>中</td>
             <td>中</td>
             <td>中</td>
-            <td>午</td>
+            <th>午</th>
           </tr>
           <tr>
             <td>晚</td>
@@ -171,7 +190,7 @@
             <td>晚</td>
             <td>晚</td>
             <td>晚</td>
-            <td>间</td>
+            <th>间</th>
           </tr>
         </table>
         <input type="text" class="lessons-td-right-tip" placeholder="例如:水彩画的基础技巧，包括构图、色彩、作品临摹、水彩写生等">
@@ -179,70 +198,64 @@
         <textarea class="lessons-right-lowtxtarea" placeholder="例如:水彩画的基础技巧，包括构图、色彩、作品临摹、水彩写生等"></textarea>
         <textarea class="lessons-right-hightxtarea" placeholder="例如:1、采用一对三的教学方式，我将有足够的经历关注每一回学生"></textarea>
       </form>
-<!--上传照片视频-->
+      <!--上传照片视频-->
       <div class="lessons-add-pic"><img src="images/add-bank-icon.png">
-        <p>上传照片
-        
-        </p>
+        <p>上传照片 </p>
+        请上传640px宽度以上的图片
       </div>
-      <div class="lessons-add-tip">
-        * 这张照片将作为整个课程的主题图片出现在课程网页上，对吸引学生选择您的课程非常重要
-
+      <div class="lessons-add-tip"> * 这张照片将作为整个课程的主题图片出现在课程网页上，对吸引学生选择您的课程非常重要
         <p class="add-tip-gap">* 可 <a href="#">联系我们</a> 协助您拍摄</p>
       </div>
       <div class="lessons-add-pic"><img src="images/add-bank-icon.png">
-        <p>上传视频
-        </p>
+        <p>上传视频 </p>
       </div>
-      <div class="lessons-add-tip">
-       * 可 <a href="#">联系我们</a> 协助您拍摄
-      </div>
-<!--上传照片视频结束-->
+      <div class="lessons-add-tip"> * 可 <a href="#">联系我们</a> 协助您拍摄 </div>
+      <!--上传照片视频结束-->
       <form>
-      <textarea class="lessons-right-lowtxtarea" placeholder="铅笔橡皮"></textarea>
+        <textarea class="lessons-right-lowtxtarea" placeholder="铅笔橡皮"></textarea>
       </form>
     </div>
   </div>
-<!--必填结束-->
-<!--选填开始-->
+  <!--必填结束--> 
+  <!--选填开始-->
   <div class="option-write">
     <p>选填　　如果您的课程还有更多的的宣传内容，请填写在这里。</p>
   </div>
   <div class="lessons-info">
     <div class="lessons-td-left">
-      <p>更多课程介绍</p>
+      <p>关于课程的更多介绍</p>
       <p></p>
       <p>更多课程照片</p>
       <div class="lessons-td-leftgap2"></div>
       <p>您对学生说的贴心话</p>
+      <p></p>
+      <div class="lessons-td-leftgap2"></div>
+      <p>优惠政策</p>
     </div>
     <div class="lessons-td-right">
-		<form>
-        	<textarea class="lessons-right-lowtxtarea"></textarea>
-        </form>
-        <div class="lessons-add-pic"><img src="images/add-bank-icon.png">
-        <p>上传照片
-        
-        </p>
+      <form>
+        <textarea class="lessons-right-lowtxtarea"></textarea>
+      </form>
+      <div class="lessons-add-pic">
       </div>
       <div class="lessons-add-pic"><img src="images/add-bank-icon.png">
-        <p>上传照片
-        
-        </p>
+        <p>上传照片 </p>
+        请上传960px宽度以上的图片
       </div>
       <form>
-        	<textarea class="lessons-right-hightxtarea"placeholder="很多学生告诉我，他们而是就有艺术创新的梦想。长大了，梦想褪色了，生活变的忙碌而枯燥，每天承受着工作的压力，却不知道自己追求的究竟是什么。而在我的画室里，梦想苏醒了，创造更活跃了，生活变得更加充实而有乐趣。"></textarea>
-        </form>
+        <textarea class="lessons-right-hightxtarea"placeholder="很多学生告诉我，他们而是就有艺术创新的梦想。长大了，梦想褪色了，生活变的忙碌而枯燥，每天承受着工作的压力，却不知道自己追求的究竟是什么。而在我的画室里，梦想苏醒了，创造更活跃了，生活变得更加充实而有乐趣。"></textarea>
+        <select></select>
+      </form>
     </div>
   </div>
-  <!--选填结束-->
+  <!--选填结束--> 
   <!--提交开始-->
   <form class="last-btn">
-  		<button type="button" class="last-btn-cancel">取消</button>
-        <button type="button" class="last-btn-sub">提交</button>
+    <button type="button" class="last-btn-cancel">取消</button>
+    <button type="button" class="last-btn-sub">提交</button>
   </form>
 </div>
-<!--提交结束-->
+<!--提交结束--> 
 <!--关于课程结束--> 
 <!--底部开始-->
 <div style="clear:both"></div>
